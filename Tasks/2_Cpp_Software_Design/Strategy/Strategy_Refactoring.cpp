@@ -174,7 +174,7 @@ class Circle : public Shape
 
    explicit Circle( double radius, DrawStrategy drawer )
       : radius_{ radius }
-      , drawer_{ std::move(drawer) }
+      , drawer_{ std::move(drawer) } // move constructor for the draw strategy is more efficient than copy constructor
    {
       if( not drawer_ ) {
          throw std::invalid_argument( "Invalid draw strategy" );

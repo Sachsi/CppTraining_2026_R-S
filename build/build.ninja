@@ -135,6 +135,8 @@ build 2_Cpp_Software_Design/Bridge/CMakeFiles/Bridge.dir/Bridge.cpp.obj: CXX_COM
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Bridge.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir
 
 
@@ -152,9 +154,10 @@ build 2_Cpp_Software_Design/Bridge/Bridge.exe: CXX_EXECUTABLE_LINKER__Bridge_Deb
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Bridge\Bridge.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Bridge\libBridge.dll.a
-  TARGET_PDB = Bridge.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Bridge.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir
 
 # =============================================================================
@@ -172,6 +175,8 @@ build 2_Cpp_Software_Design/Bridge/CMakeFiles/Car_Bridge.dir/Car_Bridge.cpp.obj:
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Car_Bridge.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir
 
 
@@ -189,9 +194,10 @@ build 2_Cpp_Software_Design/Bridge/Car_Bridge.exe: CXX_EXECUTABLE_LINKER__Car_Br
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Bridge\Car_Bridge.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Bridge\libCar_Bridge.dll.a
-  TARGET_PDB = Car_Bridge.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Car_Bridge.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir
 
 # =============================================================================
@@ -209,6 +215,8 @@ build 2_Cpp_Software_Design/Bridge/CMakeFiles/Car_Strategy.dir/Car_Strategy.cpp.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Car_Strategy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir
 
 
@@ -226,9 +234,10 @@ build 2_Cpp_Software_Design/Bridge/Car_Strategy.exe: CXX_EXECUTABLE_LINKER__Car_
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Bridge\Car_Strategy.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Bridge\libCar_Strategy.dll.a
-  TARGET_PDB = Car_Strategy.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Car_Strategy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir
 
 # =============================================================================
@@ -246,6 +255,8 @@ build 2_Cpp_Software_Design/Bridge/CMakeFiles/FastPimpl.dir/FastPimpl.cpp.obj: C
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\FastPimpl.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir
 
 
@@ -263,9 +274,10 @@ build 2_Cpp_Software_Design/Bridge/FastPimpl.exe: CXX_EXECUTABLE_LINKER__FastPim
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Bridge\FastPimpl.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Bridge\libFastPimpl.dll.a
-  TARGET_PDB = FastPimpl.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\FastPimpl.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir
 
 # =============================================================================
@@ -283,6 +295,8 @@ build 2_Cpp_Software_Design/Bridge/CMakeFiles/Pimpl.dir/Pimpl.cpp.obj: CXX_COMPI
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Pimpl.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir
 
 
@@ -300,9 +314,10 @@ build 2_Cpp_Software_Design/Bridge/Pimpl.exe: CXX_EXECUTABLE_LINKER__Pimpl_Debug
   OBJECT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Bridge\Pimpl.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Bridge\libPimpl.dll.a
-  TARGET_PDB = Pimpl.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Bridge\Pimpl.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir
 
 
@@ -360,6 +375,8 @@ build 2_Cpp_Software_Design/CRTP/CMakeFiles/CRTP.dir/CRTP.cpp.obj: CXX_COMPILER_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\CRTP.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir
 
 
@@ -377,9 +394,10 @@ build 2_Cpp_Software_Design/CRTP/CRTP.exe: CXX_EXECUTABLE_LINKER__CRTP_Debug 2_C
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir\
   TARGET_FILE = 2_Cpp_Software_Design\CRTP\CRTP.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\CRTP\libCRTP.dll.a
-  TARGET_PDB = CRTP.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\CRTP.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir
 
 # =============================================================================
@@ -397,6 +415,8 @@ build 2_Cpp_Software_Design/CRTP/CMakeFiles/CRTP_Concept.dir/CRTP_Concept.cpp.ob
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\CRTP_Concept.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir
 
 
@@ -414,9 +434,10 @@ build 2_Cpp_Software_Design/CRTP/CRTP_Concept.exe: CXX_EXECUTABLE_LINKER__CRTP_C
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir\
   TARGET_FILE = 2_Cpp_Software_Design\CRTP\CRTP_Concept.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\CRTP\libCRTP_Concept.dll.a
-  TARGET_PDB = CRTP_Concept.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\CRTP_Concept.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir
 
 # =============================================================================
@@ -434,6 +455,8 @@ build 2_Cpp_Software_Design/CRTP/CMakeFiles/DeducingThis.dir/DeducingThis.cpp.ob
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\DeducingThis.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir
 
 
@@ -451,9 +474,10 @@ build 2_Cpp_Software_Design/CRTP/DeducingThis.exe: CXX_EXECUTABLE_LINKER__Deduci
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir\
   TARGET_FILE = 2_Cpp_Software_Design\CRTP\DeducingThis.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\CRTP\libDeducingThis.dll.a
-  TARGET_PDB = DeducingThis.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\DeducingThis.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir
 
 # =============================================================================
@@ -471,6 +495,8 @@ build 2_Cpp_Software_Design/CRTP/CMakeFiles/StaticInterfaces.dir/StaticInterface
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\StaticInterfaces.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir
 
 
@@ -488,9 +514,10 @@ build 2_Cpp_Software_Design/CRTP/StaticInterfaces.exe: CXX_EXECUTABLE_LINKER__St
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir\
   TARGET_FILE = 2_Cpp_Software_Design\CRTP\StaticInterfaces.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\CRTP\libStaticInterfaces.dll.a
-  TARGET_PDB = StaticInterfaces.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\StaticInterfaces.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir
 
 # =============================================================================
@@ -508,6 +535,8 @@ build 2_Cpp_Software_Design/CRTP/CMakeFiles/Mixins.dir/Mixins.cpp.obj: CXX_COMPI
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\Mixins.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir
 
 
@@ -525,9 +554,10 @@ build 2_Cpp_Software_Design/CRTP/Mixins.exe: CXX_EXECUTABLE_LINKER__Mixins_Debug
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir\
   TARGET_FILE = 2_Cpp_Software_Design\CRTP\Mixins.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\CRTP\libMixins.dll.a
-  TARGET_PDB = Mixins.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\Mixins.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir
 
 # =============================================================================
@@ -545,6 +575,8 @@ build 2_Cpp_Software_Design/CRTP/CMakeFiles/StrongType_CRTP.dir/StrongType_CRTP.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\StrongType_CRTP.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir
 
 
@@ -562,9 +594,10 @@ build 2_Cpp_Software_Design/CRTP/StrongType_CRTP.exe: CXX_EXECUTABLE_LINKER__Str
   OBJECT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir\
   TARGET_FILE = 2_Cpp_Software_Design\CRTP\StrongType_CRTP.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\CRTP\libStrongType_CRTP.dll.a
-  TARGET_PDB = StrongType_CRTP.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\CRTP\StrongType_CRTP.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir
 
 
@@ -622,6 +655,8 @@ build 2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_Allocator.dir/Decorat
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_Allocator.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir
 
 
@@ -639,9 +674,10 @@ build 2_Cpp_Software_Design/Decorator/Decorator_Allocator.exe: CXX_EXECUTABLE_LI
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Decorator\Decorator_Allocator.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Decorator\libDecorator_Allocator.dll.a
-  TARGET_PDB = Decorator_Allocator.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_Allocator.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir
 
 # =============================================================================
@@ -659,6 +695,8 @@ build 2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_CppFanShop.dir/Decora
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_CppFanShop.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir
 
 
@@ -676,9 +714,10 @@ build 2_Cpp_Software_Design/Decorator/Decorator_CppFanShop.exe: CXX_EXECUTABLE_L
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Decorator\Decorator_CppFanShop.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Decorator\libDecorator_CppFanShop.dll.a
-  TARGET_PDB = Decorator_CppFanShop.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_CppFanShop.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir
 
 # =============================================================================
@@ -696,6 +735,8 @@ build 2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_CppFanShop_2.dir/Deco
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_CppFanShop_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir
 
 
@@ -713,9 +754,10 @@ build 2_Cpp_Software_Design/Decorator/Decorator_CppFanShop_2.exe: CXX_EXECUTABLE
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Decorator\Decorator_CppFanShop_2.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Decorator\libDecorator_CppFanShop_2.dll.a
-  TARGET_PDB = Decorator_CppFanShop_2.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_CppFanShop_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir
 
 # =============================================================================
@@ -733,6 +775,8 @@ build 2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_Fantasy.dir/Decorator
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_Fantasy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir
 
 
@@ -750,9 +794,10 @@ build 2_Cpp_Software_Design/Decorator/Decorator_Fantasy.exe: CXX_EXECUTABLE_LINK
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Decorator\Decorator_Fantasy.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Decorator\libDecorator_Fantasy.dll.a
-  TARGET_PDB = Decorator_Fantasy.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_Fantasy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir
 
 # =============================================================================
@@ -770,6 +815,8 @@ build 2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_Static.dir/Decorator_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_Static.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir
 
 
@@ -787,9 +834,10 @@ build 2_Cpp_Software_Design/Decorator/Decorator_Static.exe: CXX_EXECUTABLE_LINKE
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Decorator\Decorator_Static.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Decorator\libDecorator_Static.dll.a
-  TARGET_PDB = Decorator_Static.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\Decorator_Static.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir
 
 # =============================================================================
@@ -807,6 +855,8 @@ build 2_Cpp_Software_Design/Decorator/CMakeFiles/SynchronizedPool.dir/Synchroniz
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\SynchronizedPool.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir
 
 
@@ -824,9 +874,10 @@ build 2_Cpp_Software_Design/Decorator/SynchronizedPool.exe: CXX_EXECUTABLE_LINKE
   OBJECT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Decorator\SynchronizedPool.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Decorator\libSynchronizedPool.dll.a
-  TARGET_PDB = SynchronizedPool.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Decorator\SynchronizedPool.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir
 
 
@@ -884,6 +935,8 @@ build 2_Cpp_Software_Design/Expression_Templates/CMakeFiles/ExpressionTemplates.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\ExpressionTemplates.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir
 
 
@@ -901,9 +954,10 @@ build 2_Cpp_Software_Design/Expression_Templates/ExpressionTemplates.exe: CXX_EX
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Expression_Templates\ExpressionTemplates.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Expression_Templates\libExpressionTemplates.dll.a
-  TARGET_PDB = ExpressionTemplates.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\ExpressionTemplates.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir
 
 # =============================================================================
@@ -921,6 +975,8 @@ build 2_Cpp_Software_Design/Expression_Templates/CMakeFiles/Niebloid.dir/Niebloi
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\Niebloid.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir
 
 
@@ -938,9 +994,10 @@ build 2_Cpp_Software_Design/Expression_Templates/Niebloid.exe: CXX_EXECUTABLE_LI
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Expression_Templates\Niebloid.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Expression_Templates\libNiebloid.dll.a
-  TARGET_PDB = Niebloid.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\Niebloid.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir
 
 # =============================================================================
@@ -958,6 +1015,8 @@ build 2_Cpp_Software_Design/Expression_Templates/CMakeFiles/Ranges.dir/Ranges.cp
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\Ranges.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir
 
 
@@ -975,9 +1034,10 @@ build 2_Cpp_Software_Design/Expression_Templates/Ranges.exe: CXX_EXECUTABLE_LINK
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Expression_Templates\Ranges.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Expression_Templates\libRanges.dll.a
-  TARGET_PDB = Ranges.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\Ranges.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir
 
 # =============================================================================
@@ -995,6 +1055,8 @@ build 2_Cpp_Software_Design/Expression_Templates/CMakeFiles/Ranges_std.dir/Range
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\Ranges_std.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir
 
 
@@ -1012,9 +1074,10 @@ build 2_Cpp_Software_Design/Expression_Templates/Ranges_std.exe: CXX_EXECUTABLE_
   OBJECT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Expression_Templates\Ranges_std.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Expression_Templates\libRanges_std.dll.a
-  TARGET_PDB = Ranges_std.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Expression_Templates\Ranges_std.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir
 
 
@@ -1072,6 +1135,8 @@ build 2_Cpp_Software_Design/External_Polymorphism/CMakeFiles/Animal_EP.dir/Anima
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\External_Polymorphism\Animal_EP.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir
 
 
@@ -1089,9 +1154,10 @@ build 2_Cpp_Software_Design/External_Polymorphism/Animal_EP.exe: CXX_EXECUTABLE_
   OBJECT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir\
   TARGET_FILE = 2_Cpp_Software_Design\External_Polymorphism\Animal_EP.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\External_Polymorphism\libAnimal_EP.dll.a
-  TARGET_PDB = Animal_EP.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\External_Polymorphism\Animal_EP.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir
 
 # =============================================================================
@@ -1109,6 +1175,8 @@ build 2_Cpp_Software_Design/External_Polymorphism/CMakeFiles/ExternalPolymorphis
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\External_Polymorphism\ExternalPolymorphism_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir
 
 
@@ -1126,9 +1194,10 @@ build 2_Cpp_Software_Design/External_Polymorphism/ExternalPolymorphism_1.exe: CX
   OBJECT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir\
   TARGET_FILE = 2_Cpp_Software_Design\External_Polymorphism\ExternalPolymorphism_1.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\External_Polymorphism\libExternalPolymorphism_1.dll.a
-  TARGET_PDB = ExternalPolymorphism_1.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\External_Polymorphism\ExternalPolymorphism_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir
 
 # =============================================================================
@@ -1146,6 +1215,8 @@ build 2_Cpp_Software_Design/External_Polymorphism/CMakeFiles/ExternalPolymorphis
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\External_Polymorphism\ExternalPolymorphism_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir
 
 
@@ -1163,9 +1234,10 @@ build 2_Cpp_Software_Design/External_Polymorphism/ExternalPolymorphism_2.exe: CX
   OBJECT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir\
   TARGET_FILE = 2_Cpp_Software_Design\External_Polymorphism\ExternalPolymorphism_2.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\External_Polymorphism\libExternalPolymorphism_2.dll.a
-  TARGET_PDB = ExternalPolymorphism_2.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\External_Polymorphism\ExternalPolymorphism_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir
 
 
@@ -1223,6 +1295,8 @@ build 2_Cpp_Software_Design/Motivation/CMakeFiles/DataOriented.dir/DataOriented.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Motivation\DataOriented.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir
 
 
@@ -1240,9 +1314,10 @@ build 2_Cpp_Software_Design/Motivation/DataOriented.exe: CXX_EXECUTABLE_LINKER__
   OBJECT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Motivation\DataOriented.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Motivation\libDataOriented.dll.a
-  TARGET_PDB = DataOriented.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Motivation\DataOriented.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir
 
 # =============================================================================
@@ -1260,6 +1335,8 @@ build 2_Cpp_Software_Design/Motivation/CMakeFiles/ObjectOriented.dir/ObjectOrien
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Motivation\ObjectOriented.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir
 
 
@@ -1277,9 +1354,10 @@ build 2_Cpp_Software_Design/Motivation/ObjectOriented.exe: CXX_EXECUTABLE_LINKER
   OBJECT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Motivation\ObjectOriented.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Motivation\libObjectOriented.dll.a
-  TARGET_PDB = ObjectOriented.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Motivation\ObjectOriented.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir
 
 # =============================================================================
@@ -1297,6 +1375,8 @@ build 2_Cpp_Software_Design/Motivation/CMakeFiles/Procedural.dir/Procedural.cpp.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Motivation\Procedural.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir
 
 
@@ -1314,9 +1394,10 @@ build 2_Cpp_Software_Design/Motivation/Procedural.exe: CXX_EXECUTABLE_LINKER__Pr
   OBJECT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Motivation\Procedural.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Motivation\libProcedural.dll.a
-  TARGET_PDB = Procedural.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Motivation\Procedural.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir
 
 
@@ -1374,6 +1455,8 @@ build 2_Cpp_Software_Design/Prototype/CMakeFiles/Prototype.dir/Prototype.cpp.obj
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Prototype\Prototype.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir
 
 
@@ -1391,9 +1474,10 @@ build 2_Cpp_Software_Design/Prototype/Prototype.exe: CXX_EXECUTABLE_LINKER__Prot
   OBJECT_DIR = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Prototype\Prototype.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Prototype\libPrototype.dll.a
-  TARGET_PDB = Prototype.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Prototype\Prototype.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir
 
 
@@ -1451,6 +1535,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/FixedVector_Strategy.dir/FixedVe
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\FixedVector_Strategy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir
 
 
@@ -1468,9 +1554,10 @@ build 2_Cpp_Software_Design/Strategy/FixedVector_Strategy.exe: CXX_EXECUTABLE_LI
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\FixedVector_Strategy.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libFixedVector_Strategy.dll.a
-  TARGET_PDB = FixedVector_Strategy.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\FixedVector_Strategy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir
 
 # =============================================================================
@@ -1488,6 +1575,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/MultipleStrategies.dir/MultipleS
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\MultipleStrategies.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir
 
 
@@ -1505,9 +1594,10 @@ build 2_Cpp_Software_Design/Strategy/MultipleStrategies.exe: CXX_EXECUTABLE_LINK
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\MultipleStrategies.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libMultipleStrategies.dll.a
-  TARGET_PDB = MultipleStrategies.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\MultipleStrategies.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir
 
 # =============================================================================
@@ -1525,6 +1615,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Benchmark.dir/Strategy_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Benchmark.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir
 
 
@@ -1542,9 +1634,10 @@ build 2_Cpp_Software_Design/Strategy/Strategy_Benchmark.exe: CXX_EXECUTABLE_LINK
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\Strategy_Benchmark.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libStrategy_Benchmark.dll.a
-  TARGET_PDB = Strategy_Benchmark.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Benchmark.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir
 
 # =============================================================================
@@ -1562,6 +1655,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Classic.dir/Strategy_Cl
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Classic.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir
 
 
@@ -1579,9 +1674,10 @@ build 2_Cpp_Software_Design/Strategy/Strategy_Classic.exe: CXX_EXECUTABLE_LINKER
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\Strategy_Classic.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libStrategy_Classic.dll.a
-  TARGET_PDB = Strategy_Classic.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Classic.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir
 
 # =============================================================================
@@ -1599,6 +1695,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Refactoring.dir/Strateg
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Refactoring.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir
 
 
@@ -1616,9 +1714,10 @@ build 2_Cpp_Software_Design/Strategy/Strategy_Refactoring.exe: CXX_EXECUTABLE_LI
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\Strategy_Refactoring.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libStrategy_Refactoring.dll.a
-  TARGET_PDB = Strategy_Refactoring.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Refactoring.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir
 
 # =============================================================================
@@ -1636,6 +1735,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Static.dir/Strategy_Sta
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Static.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir
 
 
@@ -1653,9 +1754,10 @@ build 2_Cpp_Software_Design/Strategy/Strategy_Static.exe: CXX_EXECUTABLE_LINKER_
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\Strategy_Static.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libStrategy_Static.dll.a
-  TARGET_PDB = Strategy_Static.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\Strategy_Static.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir
 
 # =============================================================================
@@ -1673,6 +1775,8 @@ build 2_Cpp_Software_Design/Strategy/CMakeFiles/UniquePtr_Strategy.dir/UniquePtr
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\UniquePtr_Strategy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir
 
 
@@ -1690,9 +1794,10 @@ build 2_Cpp_Software_Design/Strategy/UniquePtr_Strategy.exe: CXX_EXECUTABLE_LINK
   OBJECT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Strategy\UniquePtr_Strategy.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Strategy\libUniquePtr_Strategy.dll.a
-  TARGET_PDB = UniquePtr_Strategy.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Strategy\UniquePtr_Strategy.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir
 
 
@@ -1750,6 +1855,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Animal_TE.dir/Animal_TE.cpp.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Animal_TE.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir
 
 
@@ -1767,9 +1874,10 @@ build 2_Cpp_Software_Design/Type_Erasure/Animal_TE.exe: CXX_EXECUTABLE_LINKER__A
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\Animal_TE.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libAnimal_TE.dll.a
-  TARGET_PDB = Animal_TE.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Animal_TE.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir
 
 # =============================================================================
@@ -1787,6 +1895,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Any_1.dir/Any_1.cpp.obj: CXX
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Any_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir
 
 
@@ -1804,9 +1914,10 @@ build 2_Cpp_Software_Design/Type_Erasure/Any_1.exe: CXX_EXECUTABLE_LINKER__Any_1
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\Any_1.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libAny_1.dll.a
-  TARGET_PDB = Any_1.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Any_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir
 
 # =============================================================================
@@ -1824,6 +1935,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Any_2.dir/Any_2.cpp.obj: CXX
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Any_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir
 
 
@@ -1841,9 +1954,10 @@ build 2_Cpp_Software_Design/Type_Erasure/Any_2.exe: CXX_EXECUTABLE_LINKER__Any_2
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\Any_2.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libAny_2.dll.a
-  TARGET_PDB = Any_2.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Any_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir
 
 # =============================================================================
@@ -1861,6 +1975,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Function_1.dir/Function_1.cp
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Function_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir
 
 
@@ -1878,9 +1994,10 @@ build 2_Cpp_Software_Design/Type_Erasure/Function_1.exe: CXX_EXECUTABLE_LINKER__
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\Function_1.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libFunction_1.dll.a
-  TARGET_PDB = Function_1.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Function_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir
 
 # =============================================================================
@@ -1898,6 +2015,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Function_2.dir/Function_2.cp
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Function_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir
 
 
@@ -1915,9 +2034,10 @@ build 2_Cpp_Software_Design/Type_Erasure/Function_2.exe: CXX_EXECUTABLE_LINKER__
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\Function_2.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libFunction_2.dll.a
-  TARGET_PDB = Function_2.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Function_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir
 
 # =============================================================================
@@ -1935,6 +2055,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Function_Ref.dir/Function_Re
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Function_Ref.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir
 
 
@@ -1952,9 +2074,10 @@ build 2_Cpp_Software_Design/Type_Erasure/Function_Ref.exe: CXX_EXECUTABLE_LINKER
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\Function_Ref.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libFunction_Ref.dll.a
-  TARGET_PDB = Function_Ref.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\Function_Ref.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir
 
 # =============================================================================
@@ -1972,6 +2095,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/InplaceAny.dir/InplaceAny.cp
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\InplaceAny.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir
 
 
@@ -1989,9 +2114,10 @@ build 2_Cpp_Software_Design/Type_Erasure/InplaceAny.exe: CXX_EXECUTABLE_LINKER__
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\InplaceAny.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libInplaceAny.dll.a
-  TARGET_PDB = InplaceAny.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\InplaceAny.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir
 
 # =============================================================================
@@ -2009,6 +2135,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/InplaceFunction.dir/InplaceF
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\InplaceFunction.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir
 
 
@@ -2026,9 +2154,10 @@ build 2_Cpp_Software_Design/Type_Erasure/InplaceFunction.exe: CXX_EXECUTABLE_LIN
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\InplaceFunction.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libInplaceFunction.dll.a
-  TARGET_PDB = InplaceFunction.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\InplaceFunction.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir
 
 # =============================================================================
@@ -2046,6 +2175,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/PolymorphicAllocator.dir/Pol
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\PolymorphicAllocator.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir
 
 
@@ -2063,9 +2194,10 @@ build 2_Cpp_Software_Design/Type_Erasure/PolymorphicAllocator.exe: CXX_EXECUTABL
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\PolymorphicAllocator.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libPolymorphicAllocator.dll.a
-  TARGET_PDB = PolymorphicAllocator.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\PolymorphicAllocator.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir
 
 # =============================================================================
@@ -2083,6 +2215,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_1.dir/TypeErasur
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir
 
 
@@ -2100,9 +2234,10 @@ build 2_Cpp_Software_Design/Type_Erasure/TypeErasure_1.exe: CXX_EXECUTABLE_LINKE
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_1.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libTypeErasure_1.dll.a
-  TARGET_PDB = TypeErasure_1.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir
 
 # =============================================================================
@@ -2120,6 +2255,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_2.dir/TypeErasur
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir
 
 
@@ -2137,9 +2274,10 @@ build 2_Cpp_Software_Design/Type_Erasure/TypeErasure_2.exe: CXX_EXECUTABLE_LINKE
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_2.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libTypeErasure_2.dll.a
-  TARGET_PDB = TypeErasure_2.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir
 
 # =============================================================================
@@ -2157,6 +2295,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_MVF.dir/TypeEras
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_MVF.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir
 
 
@@ -2174,9 +2314,10 @@ build 2_Cpp_Software_Design/Type_Erasure/TypeErasure_MVF.exe: CXX_EXECUTABLE_LIN
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_MVF.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libTypeErasure_MVF.dll.a
-  TARGET_PDB = TypeErasure_MVF.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_MVF.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir
 
 # =============================================================================
@@ -2194,6 +2335,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_Ref.dir/TypeEras
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_Ref.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir
 
 
@@ -2211,9 +2354,10 @@ build 2_Cpp_Software_Design/Type_Erasure/TypeErasure_Ref.exe: CXX_EXECUTABLE_LIN
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_Ref.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libTypeErasure_Ref.dll.a
-  TARGET_PDB = TypeErasure_Ref.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_Ref.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir
 
 # =============================================================================
@@ -2231,6 +2375,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_SBO_1.dir/TypeEr
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_SBO_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir
 
 
@@ -2248,9 +2394,10 @@ build 2_Cpp_Software_Design/Type_Erasure/TypeErasure_SBO_1.exe: CXX_EXECUTABLE_L
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_SBO_1.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libTypeErasure_SBO_1.dll.a
-  TARGET_PDB = TypeErasure_SBO_1.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_SBO_1.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir
 
 # =============================================================================
@@ -2268,6 +2415,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_SBO_2.dir/TypeEr
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_SBO_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir
 
 
@@ -2285,9 +2434,10 @@ build 2_Cpp_Software_Design/Type_Erasure/TypeErasure_SBO_2.exe: CXX_EXECUTABLE_L
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_SBO_2.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libTypeErasure_SBO_2.dll.a
-  TARGET_PDB = TypeErasure_SBO_2.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\TypeErasure_SBO_2.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir
 
 # =============================================================================
@@ -2305,6 +2455,8 @@ build 2_Cpp_Software_Design/Type_Erasure/CMakeFiles/UniquePtr_TypeErasure.dir/Un
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\UniquePtr_TypeErasure.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir
 
 
@@ -2322,9 +2474,10 @@ build 2_Cpp_Software_Design/Type_Erasure/UniquePtr_TypeErasure.exe: CXX_EXECUTAB
   OBJECT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Type_Erasure\UniquePtr_TypeErasure.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Type_Erasure\libUniquePtr_TypeErasure.dll.a
-  TARGET_PDB = UniquePtr_TypeErasure.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Type_Erasure\UniquePtr_TypeErasure.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir
 
 
@@ -2382,6 +2535,8 @@ build 2_Cpp_Software_Design/Visitor/CMakeFiles/AcyclicVisitor.dir/AcyclicVisitor
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\AcyclicVisitor.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir
 
 
@@ -2399,9 +2554,10 @@ build 2_Cpp_Software_Design/Visitor/AcyclicVisitor.exe: CXX_EXECUTABLE_LINKER__A
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Visitor\AcyclicVisitor.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Visitor\libAcyclicVisitor.dll.a
-  TARGET_PDB = AcyclicVisitor.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\AcyclicVisitor.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir
 
 # =============================================================================
@@ -2419,6 +2575,8 @@ build 2_Cpp_Software_Design/Visitor/CMakeFiles/Variant.dir/Variant.cpp.obj: CXX_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Variant.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir
 
 
@@ -2436,9 +2594,10 @@ build 2_Cpp_Software_Design/Visitor/Variant.exe: CXX_EXECUTABLE_LINKER__Variant_
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Visitor\Variant.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Visitor\libVariant.dll.a
-  TARGET_PDB = Variant.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Variant.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir
 
 # =============================================================================
@@ -2456,6 +2615,8 @@ build 2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Benchmark.dir/Visitor_Ben
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Visitor_Benchmark.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir
 
 
@@ -2473,9 +2634,10 @@ build 2_Cpp_Software_Design/Visitor/Visitor_Benchmark.exe: CXX_EXECUTABLE_LINKER
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Visitor\Visitor_Benchmark.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Visitor\libVisitor_Benchmark.dll.a
-  TARGET_PDB = Visitor_Benchmark.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Visitor_Benchmark.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir
 
 # =============================================================================
@@ -2493,6 +2655,8 @@ build 2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Classic.dir/Visitor_Class
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Visitor_Classic.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir
 
 
@@ -2510,9 +2674,10 @@ build 2_Cpp_Software_Design/Visitor/Visitor_Classic.exe: CXX_EXECUTABLE_LINKER__
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Visitor\Visitor_Classic.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Visitor\libVisitor_Classic.dll.a
-  TARGET_PDB = Visitor_Classic.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Visitor_Classic.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir
 
 # =============================================================================
@@ -2530,6 +2695,8 @@ build 2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Refactoring.dir/Visitor_R
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir
   OBJECT_FILE_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir\
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Visitor_Refactoring.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir
 
 
@@ -2547,9 +2714,10 @@ build 2_Cpp_Software_Design/Visitor/Visitor_Refactoring.exe: CXX_EXECUTABLE_LINK
   OBJECT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir\
   TARGET_FILE = 2_Cpp_Software_Design\Visitor\Visitor_Refactoring.exe
   TARGET_IMPLIB = 2_Cpp_Software_Design\Visitor\libVisitor_Refactoring.dll.a
-  TARGET_PDB = Visitor_Refactoring.exe.dbg
+  TARGET_PDB = 2_Cpp_Software_Design\Visitor\Visitor_Refactoring.pdb
   TARGET_SUPPORT_DIR = 2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir
 
 
@@ -2607,6 +2775,8 @@ build 3_Concepts/CMakeFiles/AssociativeContainer.dir/AssociativeContainer.cpp.ob
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\AssociativeContainer.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\AssociativeContainer.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\AssociativeContainer.dir\
+  TARGET_PDB = 3_Concepts\AssociativeContainer.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\AssociativeContainer.dir
 
 
@@ -2624,9 +2794,10 @@ build 3_Concepts/AssociativeContainer.exe: CXX_EXECUTABLE_LINKER__AssociativeCon
   OBJECT_DIR = 3_Concepts\CMakeFiles\AssociativeContainer.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\AssociativeContainer.dir\
   TARGET_FILE = 3_Concepts\AssociativeContainer.exe
   TARGET_IMPLIB = 3_Concepts\libAssociativeContainer.dll.a
-  TARGET_PDB = AssociativeContainer.exe.dbg
+  TARGET_PDB = 3_Concepts\AssociativeContainer.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\AssociativeContainer.dir
 
 # =============================================================================
@@ -2644,6 +2815,8 @@ build 3_Concepts/CMakeFiles/Constraints2.dir/Constraints2.cpp.obj: CXX_COMPILER_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\Constraints2.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\Constraints2.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Constraints2.dir\
+  TARGET_PDB = 3_Concepts\Constraints2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Constraints2.dir
 
 
@@ -2661,9 +2834,10 @@ build 3_Concepts/Constraints2.exe: CXX_EXECUTABLE_LINKER__Constraints2_Debug 3_C
   OBJECT_DIR = 3_Concepts\CMakeFiles\Constraints2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Constraints2.dir\
   TARGET_FILE = 3_Concepts\Constraints2.exe
   TARGET_IMPLIB = 3_Concepts\libConstraints2.dll.a
-  TARGET_PDB = Constraints2.exe.dbg
+  TARGET_PDB = 3_Concepts\Constraints2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Constraints2.dir
 
 # =============================================================================
@@ -2681,6 +2855,8 @@ build 3_Concepts/CMakeFiles/IsPalindrome_Concepts.dir/IsPalindrome_Concepts.cpp.
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir\
+  TARGET_PDB = 3_Concepts\IsPalindrome_Concepts.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir
 
 
@@ -2698,9 +2874,10 @@ build 3_Concepts/IsPalindrome_Concepts.exe: CXX_EXECUTABLE_LINKER__IsPalindrome_
   OBJECT_DIR = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir\
   TARGET_FILE = 3_Concepts\IsPalindrome_Concepts.exe
   TARGET_IMPLIB = 3_Concepts\libIsPalindrome_Concepts.dll.a
-  TARGET_PDB = IsPalindrome_Concepts.exe.dbg
+  TARGET_PDB = 3_Concepts\IsPalindrome_Concepts.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir
 
 # =============================================================================
@@ -2718,6 +2895,8 @@ build 3_Concepts/CMakeFiles/Max_Concept.dir/Max_Concept.cpp.obj: CXX_COMPILER__M
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\Max_Concept.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\Max_Concept.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Max_Concept.dir\
+  TARGET_PDB = 3_Concepts\Max_Concept.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Max_Concept.dir
 
 
@@ -2735,9 +2914,10 @@ build 3_Concepts/Max_Concept.exe: CXX_EXECUTABLE_LINKER__Max_Concept_Debug 3_Con
   OBJECT_DIR = 3_Concepts\CMakeFiles\Max_Concept.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Max_Concept.dir\
   TARGET_FILE = 3_Concepts\Max_Concept.exe
   TARGET_IMPLIB = 3_Concepts\libMax_Concept.dll.a
-  TARGET_PDB = Max_Concept.exe.dbg
+  TARGET_PDB = 3_Concepts\Max_Concept.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Max_Concept.dir
 
 # =============================================================================
@@ -2755,6 +2935,8 @@ build 3_Concepts/CMakeFiles/NarrowConversion2.dir/NarrowConversion2.cpp.obj: CXX
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\NarrowConversion2.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\NarrowConversion2.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\NarrowConversion2.dir\
+  TARGET_PDB = 3_Concepts\NarrowConversion2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\NarrowConversion2.dir
 
 
@@ -2772,9 +2954,10 @@ build 3_Concepts/NarrowConversion2.exe: CXX_EXECUTABLE_LINKER__NarrowConversion2
   OBJECT_DIR = 3_Concepts\CMakeFiles\NarrowConversion2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\NarrowConversion2.dir\
   TARGET_FILE = 3_Concepts\NarrowConversion2.exe
   TARGET_IMPLIB = 3_Concepts\libNarrowConversion2.dll.a
-  TARGET_PDB = NarrowConversion2.exe.dbg
+  TARGET_PDB = 3_Concepts\NarrowConversion2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\NarrowConversion2.dir
 
 # =============================================================================
@@ -2792,6 +2975,8 @@ build 3_Concepts/CMakeFiles/Optional_Cpp20.dir/Optional_Cpp20.cpp.obj: CXX_COMPI
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\Optional_Cpp20.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\Optional_Cpp20.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Optional_Cpp20.dir\
+  TARGET_PDB = 3_Concepts\Optional_Cpp20.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Optional_Cpp20.dir
 
 
@@ -2809,9 +2994,10 @@ build 3_Concepts/Optional_Cpp20.exe: CXX_EXECUTABLE_LINKER__Optional_Cpp20_Debug
   OBJECT_DIR = 3_Concepts\CMakeFiles\Optional_Cpp20.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Optional_Cpp20.dir\
   TARGET_FILE = 3_Concepts\Optional_Cpp20.exe
   TARGET_IMPLIB = 3_Concepts\libOptional_Cpp20.dll.a
-  TARGET_PDB = Optional_Cpp20.exe.dbg
+  TARGET_PDB = 3_Concepts\Optional_Cpp20.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Optional_Cpp20.dir
 
 # =============================================================================
@@ -2829,6 +3015,8 @@ build 3_Concepts/CMakeFiles/Optional_Trivial_1.dir/Optional_Trivial_1.cpp.obj: C
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir\
+  TARGET_PDB = 3_Concepts\Optional_Trivial_1.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir
 
 
@@ -2846,9 +3034,10 @@ build 3_Concepts/Optional_Trivial_1.exe: CXX_EXECUTABLE_LINKER__Optional_Trivial
   OBJECT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir\
   TARGET_FILE = 3_Concepts\Optional_Trivial_1.exe
   TARGET_IMPLIB = 3_Concepts\libOptional_Trivial_1.dll.a
-  TARGET_PDB = Optional_Trivial_1.exe.dbg
+  TARGET_PDB = 3_Concepts\Optional_Trivial_1.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_1.dir
 
 # =============================================================================
@@ -2866,6 +3055,8 @@ build 3_Concepts/CMakeFiles/Optional_Trivial_2.dir/Optional_Trivial_2.cpp.obj: C
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir\
+  TARGET_PDB = 3_Concepts\Optional_Trivial_2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir
 
 
@@ -2883,9 +3074,10 @@ build 3_Concepts/Optional_Trivial_2.exe: CXX_EXECUTABLE_LINKER__Optional_Trivial
   OBJECT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir\
   TARGET_FILE = 3_Concepts\Optional_Trivial_2.exe
   TARGET_IMPLIB = 3_Concepts\libOptional_Trivial_2.dll.a
-  TARGET_PDB = Optional_Trivial_2.exe.dbg
+  TARGET_PDB = 3_Concepts\Optional_Trivial_2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Optional_Trivial_2.dir
 
 # =============================================================================
@@ -2903,6 +3095,8 @@ build 3_Concepts/CMakeFiles/PassingConcepts.dir/PassingConcepts.cpp.obj: CXX_COM
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\PassingConcepts.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\PassingConcepts.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\PassingConcepts.dir\
+  TARGET_PDB = 3_Concepts\PassingConcepts.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\PassingConcepts.dir
 
 
@@ -2920,9 +3114,10 @@ build 3_Concepts/PassingConcepts.exe: CXX_EXECUTABLE_LINKER__PassingConcepts_Deb
   OBJECT_DIR = 3_Concepts\CMakeFiles\PassingConcepts.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\PassingConcepts.dir\
   TARGET_FILE = 3_Concepts\PassingConcepts.exe
   TARGET_IMPLIB = 3_Concepts\libPassingConcepts.dll.a
-  TARGET_PDB = PassingConcepts.exe.dbg
+  TARGET_PDB = 3_Concepts\PassingConcepts.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\PassingConcepts.dir
 
 # =============================================================================
@@ -2940,6 +3135,8 @@ build 3_Concepts/CMakeFiles/SequenceContainer.dir/SequenceContainer.cpp.obj: CXX
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\SequenceContainer.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\SequenceContainer.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\SequenceContainer.dir\
+  TARGET_PDB = 3_Concepts\SequenceContainer.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\SequenceContainer.dir
 
 
@@ -2957,9 +3154,10 @@ build 3_Concepts/SequenceContainer.exe: CXX_EXECUTABLE_LINKER__SequenceContainer
   OBJECT_DIR = 3_Concepts\CMakeFiles\SequenceContainer.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\SequenceContainer.dir\
   TARGET_FILE = 3_Concepts\SequenceContainer.exe
   TARGET_IMPLIB = 3_Concepts\libSequenceContainer.dll.a
-  TARGET_PDB = SequenceContainer.exe.dbg
+  TARGET_PDB = 3_Concepts\SequenceContainer.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\SequenceContainer.dir
 
 # =============================================================================
@@ -2977,6 +3175,8 @@ build 3_Concepts/CMakeFiles/Sign2.dir/Sign2.cpp.obj: CXX_COMPILER__Sign2_unscann
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\Sign2.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\Sign2.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Sign2.dir\
+  TARGET_PDB = 3_Concepts\Sign2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Sign2.dir
 
 
@@ -2994,9 +3194,10 @@ build 3_Concepts/Sign2.exe: CXX_EXECUTABLE_LINKER__Sign2_Debug 3_Concepts/CMakeF
   OBJECT_DIR = 3_Concepts\CMakeFiles\Sign2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\Sign2.dir\
   TARGET_FILE = 3_Concepts\Sign2.exe
   TARGET_IMPLIB = 3_Concepts\libSign2.dll.a
-  TARGET_PDB = Sign2.exe.dbg
+  TARGET_PDB = 3_Concepts\Sign2.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\Sign2.dir
 
 # =============================================================================
@@ -3014,6 +3215,8 @@ build 3_Concepts/CMakeFiles/UniquePtr_Concepts.dir/UniquePtr_Concepts.cpp.obj: C
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir
   OBJECT_FILE_DIR = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir\
+  TARGET_PDB = 3_Concepts\UniquePtr_Concepts.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir
 
 
@@ -3031,9 +3234,10 @@ build 3_Concepts/UniquePtr_Concepts.exe: CXX_EXECUTABLE_LINKER__UniquePtr_Concep
   OBJECT_DIR = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir\
   TARGET_FILE = 3_Concepts\UniquePtr_Concepts.exe
   TARGET_IMPLIB = 3_Concepts\libUniquePtr_Concepts.dll.a
-  TARGET_PDB = UniquePtr_Concepts.exe.dbg
+  TARGET_PDB = 3_Concepts\UniquePtr_Concepts.pdb
   TARGET_SUPPORT_DIR = 3_Concepts\CMakeFiles\UniquePtr_Concepts.dir
 
 
@@ -3091,6 +3295,8 @@ build 4_Ranges/CMakeFiles/Accumulate_1.dir/Accumulate_1.cpp.obj: CXX_COMPILER__A
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Accumulate_1.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Accumulate_1.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Accumulate_1.dir\
+  TARGET_PDB = 4_Ranges\Accumulate_1.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Accumulate_1.dir
 
 
@@ -3108,9 +3314,10 @@ build 4_Ranges/Accumulate_1.exe: CXX_EXECUTABLE_LINKER__Accumulate_1_Debug 4_Ran
   OBJECT_DIR = 4_Ranges\CMakeFiles\Accumulate_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Accumulate_1.dir\
   TARGET_FILE = 4_Ranges\Accumulate_1.exe
   TARGET_IMPLIB = 4_Ranges\libAccumulate_1.dll.a
-  TARGET_PDB = Accumulate_1.exe.dbg
+  TARGET_PDB = 4_Ranges\Accumulate_1.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Accumulate_1.dir
 
 # =============================================================================
@@ -3128,6 +3335,8 @@ build 4_Ranges/CMakeFiles/Accumulate_2.dir/Accumulate_2.cpp.obj: CXX_COMPILER__A
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Accumulate_2.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Accumulate_2.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Accumulate_2.dir\
+  TARGET_PDB = 4_Ranges\Accumulate_2.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Accumulate_2.dir
 
 
@@ -3145,9 +3354,10 @@ build 4_Ranges/Accumulate_2.exe: CXX_EXECUTABLE_LINKER__Accumulate_2_Debug 4_Ran
   OBJECT_DIR = 4_Ranges\CMakeFiles\Accumulate_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Accumulate_2.dir\
   TARGET_FILE = 4_Ranges\Accumulate_2.exe
   TARGET_IMPLIB = 4_Ranges\libAccumulate_2.dll.a
-  TARGET_PDB = Accumulate_2.exe.dbg
+  TARGET_PDB = 4_Ranges\Accumulate_2.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Accumulate_2.dir
 
 # =============================================================================
@@ -3165,6 +3375,8 @@ build 4_Ranges/CMakeFiles/AlgorithmPerformance1.dir/AlgorithmPerformance1.cpp.ob
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir\
+  TARGET_PDB = 4_Ranges\AlgorithmPerformance1.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir
 
 
@@ -3182,9 +3394,10 @@ build 4_Ranges/AlgorithmPerformance1.exe: CXX_EXECUTABLE_LINKER__AlgorithmPerfor
   OBJECT_DIR = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir\
   TARGET_FILE = 4_Ranges\AlgorithmPerformance1.exe
   TARGET_IMPLIB = 4_Ranges\libAlgorithmPerformance1.dll.a
-  TARGET_PDB = AlgorithmPerformance1.exe.dbg
+  TARGET_PDB = 4_Ranges\AlgorithmPerformance1.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\AlgorithmPerformance1.dir
 
 # =============================================================================
@@ -3202,6 +3415,8 @@ build 4_Ranges/CMakeFiles/BadAccumulate.dir/BadAccumulate.cpp.obj: CXX_COMPILER_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadAccumulate.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\BadAccumulate.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadAccumulate.dir\
+  TARGET_PDB = 4_Ranges\BadAccumulate.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadAccumulate.dir
 
 
@@ -3219,9 +3434,10 @@ build 4_Ranges/BadAccumulate.exe: CXX_EXECUTABLE_LINKER__BadAccumulate_Debug 4_R
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadAccumulate.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadAccumulate.dir\
   TARGET_FILE = 4_Ranges\BadAccumulate.exe
   TARGET_IMPLIB = 4_Ranges\libBadAccumulate.dll.a
-  TARGET_PDB = BadAccumulate.exe.dbg
+  TARGET_PDB = 4_Ranges\BadAccumulate.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadAccumulate.dir
 
 # =============================================================================
@@ -3239,6 +3455,8 @@ build 4_Ranges/CMakeFiles/BadCopy.dir/BadCopy.cpp.obj: CXX_COMPILER__BadCopy_uns
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadCopy.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\BadCopy.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadCopy.dir\
+  TARGET_PDB = 4_Ranges\BadCopy.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadCopy.dir
 
 
@@ -3256,9 +3474,10 @@ build 4_Ranges/BadCopy.exe: CXX_EXECUTABLE_LINKER__BadCopy_Debug 4_Ranges/CMakeF
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadCopy.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadCopy.dir\
   TARGET_FILE = 4_Ranges\BadCopy.exe
   TARGET_IMPLIB = 4_Ranges\libBadCopy.dll.a
-  TARGET_PDB = BadCopy.exe.dbg
+  TARGET_PDB = 4_Ranges\BadCopy.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadCopy.dir
 
 # =============================================================================
@@ -3276,6 +3495,8 @@ build 4_Ranges/CMakeFiles/BadFind.dir/BadFind.cpp.obj: CXX_COMPILER__BadFind_uns
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadFind.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\BadFind.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadFind.dir\
+  TARGET_PDB = 4_Ranges\BadFind.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadFind.dir
 
 
@@ -3293,9 +3514,10 @@ build 4_Ranges/BadFind.exe: CXX_EXECUTABLE_LINKER__BadFind_Debug 4_Ranges/CMakeF
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadFind.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadFind.dir\
   TARGET_FILE = 4_Ranges\BadFind.exe
   TARGET_IMPLIB = 4_Ranges\libBadFind.dll.a
-  TARGET_PDB = BadFind.exe.dbg
+  TARGET_PDB = 4_Ranges\BadFind.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadFind.dir
 
 # =============================================================================
@@ -3313,6 +3535,8 @@ build 4_Ranges/CMakeFiles/BadRemove.dir/BadRemove.cpp.obj: CXX_COMPILER__BadRemo
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadRemove.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\BadRemove.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadRemove.dir\
+  TARGET_PDB = 4_Ranges\BadRemove.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadRemove.dir
 
 
@@ -3330,9 +3554,10 @@ build 4_Ranges/BadRemove.exe: CXX_EXECUTABLE_LINKER__BadRemove_Debug 4_Ranges/CM
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadRemove.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadRemove.dir\
   TARGET_FILE = 4_Ranges\BadRemove.exe
   TARGET_IMPLIB = 4_Ranges\libBadRemove.dll.a
-  TARGET_PDB = BadRemove.exe.dbg
+  TARGET_PDB = 4_Ranges\BadRemove.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadRemove.dir
 
 # =============================================================================
@@ -3350,6 +3575,8 @@ build 4_Ranges/CMakeFiles/BadTransform.dir/BadTransform.cpp.obj: CXX_COMPILER__B
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadTransform.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\BadTransform.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadTransform.dir\
+  TARGET_PDB = 4_Ranges\BadTransform.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadTransform.dir
 
 
@@ -3367,9 +3594,10 @@ build 4_Ranges/BadTransform.exe: CXX_EXECUTABLE_LINKER__BadTransform_Debug 4_Ran
   OBJECT_DIR = 4_Ranges\CMakeFiles\BadTransform.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\BadTransform.dir\
   TARGET_FILE = 4_Ranges\BadTransform.exe
   TARGET_IMPLIB = 4_Ranges\libBadTransform.dll.a
-  TARGET_PDB = BadTransform.exe.dbg
+  TARGET_PDB = 4_Ranges\BadTransform.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\BadTransform.dir
 
 # =============================================================================
@@ -3387,6 +3615,8 @@ build 4_Ranges/CMakeFiles/CartesianProduct.dir/CartesianProduct.cpp.obj: CXX_COM
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\CartesianProduct.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\CartesianProduct.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\CartesianProduct.dir\
+  TARGET_PDB = 4_Ranges\CartesianProduct.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\CartesianProduct.dir
 
 
@@ -3404,9 +3634,10 @@ build 4_Ranges/CartesianProduct.exe: CXX_EXECUTABLE_LINKER__CartesianProduct_Deb
   OBJECT_DIR = 4_Ranges\CMakeFiles\CartesianProduct.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\CartesianProduct.dir\
   TARGET_FILE = 4_Ranges\CartesianProduct.exe
   TARGET_IMPLIB = 4_Ranges\libCartesianProduct.dll.a
-  TARGET_PDB = CartesianProduct.exe.dbg
+  TARGET_PDB = 4_Ranges\CartesianProduct.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\CartesianProduct.dir
 
 # =============================================================================
@@ -3424,6 +3655,8 @@ build 4_Ranges/CMakeFiles/EqualRange.dir/EqualRange.cpp.obj: CXX_COMPILER__Equal
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\EqualRange.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\EqualRange.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\EqualRange.dir\
+  TARGET_PDB = 4_Ranges\EqualRange.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\EqualRange.dir
 
 
@@ -3441,9 +3674,10 @@ build 4_Ranges/EqualRange.exe: CXX_EXECUTABLE_LINKER__EqualRange_Debug 4_Ranges/
   OBJECT_DIR = 4_Ranges\CMakeFiles\EqualRange.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\EqualRange.dir\
   TARGET_FILE = 4_Ranges\EqualRange.exe
   TARGET_IMPLIB = 4_Ranges\libEqualRange.dll.a
-  TARGET_PDB = EqualRange.exe.dbg
+  TARGET_PDB = 4_Ranges\EqualRange.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\EqualRange.dir
 
 # =============================================================================
@@ -3461,6 +3695,8 @@ build 4_Ranges/CMakeFiles/ExtractStrings.dir/ExtractStrings.cpp.obj: CXX_COMPILE
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\ExtractStrings.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\ExtractStrings.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\ExtractStrings.dir\
+  TARGET_PDB = 4_Ranges\ExtractStrings.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\ExtractStrings.dir
 
 
@@ -3478,9 +3714,10 @@ build 4_Ranges/ExtractStrings.exe: CXX_EXECUTABLE_LINKER__ExtractStrings_Debug 4
   OBJECT_DIR = 4_Ranges\CMakeFiles\ExtractStrings.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\ExtractStrings.dir\
   TARGET_FILE = 4_Ranges\ExtractStrings.exe
   TARGET_IMPLIB = 4_Ranges\libExtractStrings.dll.a
-  TARGET_PDB = ExtractStrings.exe.dbg
+  TARGET_PDB = 4_Ranges\ExtractStrings.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\ExtractStrings.dir
 
 # =============================================================================
@@ -3498,6 +3735,8 @@ build 4_Ranges/CMakeFiles/Fibonacci.dir/Fibonacci.cpp.obj: CXX_COMPILER__Fibonac
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Fibonacci.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Fibonacci.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Fibonacci.dir\
+  TARGET_PDB = 4_Ranges\Fibonacci.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Fibonacci.dir
 
 
@@ -3515,9 +3754,10 @@ build 4_Ranges/Fibonacci.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Debug 4_Ranges/CM
   OBJECT_DIR = 4_Ranges\CMakeFiles\Fibonacci.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Fibonacci.dir\
   TARGET_FILE = 4_Ranges\Fibonacci.exe
   TARGET_IMPLIB = 4_Ranges\libFibonacci.dll.a
-  TARGET_PDB = Fibonacci.exe.dbg
+  TARGET_PDB = 4_Ranges\Fibonacci.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Fibonacci.dir
 
 # =============================================================================
@@ -3535,6 +3775,8 @@ build 4_Ranges/CMakeFiles/IsEmailAddress.dir/IsEmailAddress.cpp.obj: CXX_COMPILE
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\IsEmailAddress.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\IsEmailAddress.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\IsEmailAddress.dir\
+  TARGET_PDB = 4_Ranges\IsEmailAddress.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\IsEmailAddress.dir
 
 
@@ -3552,9 +3794,10 @@ build 4_Ranges/IsEmailAddress.exe: CXX_EXECUTABLE_LINKER__IsEmailAddress_Debug 4
   OBJECT_DIR = 4_Ranges\CMakeFiles\IsEmailAddress.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\IsEmailAddress.dir\
   TARGET_FILE = 4_Ranges\IsEmailAddress.exe
   TARGET_IMPLIB = 4_Ranges\libIsEmailAddress.dll.a
-  TARGET_PDB = IsEmailAddress.exe.dbg
+  TARGET_PDB = 4_Ranges\IsEmailAddress.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\IsEmailAddress.dir
 
 # =============================================================================
@@ -3572,6 +3815,8 @@ build 4_Ranges/CMakeFiles/IsPalindrome.dir/IsPalindrome.cpp.obj: CXX_COMPILER__I
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\IsPalindrome.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\IsPalindrome.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\IsPalindrome.dir\
+  TARGET_PDB = 4_Ranges\IsPalindrome.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\IsPalindrome.dir
 
 
@@ -3589,9 +3834,10 @@ build 4_Ranges/IsPalindrome.exe: CXX_EXECUTABLE_LINKER__IsPalindrome_Debug 4_Ran
   OBJECT_DIR = 4_Ranges\CMakeFiles\IsPalindrome.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\IsPalindrome.dir\
   TARGET_FILE = 4_Ranges\IsPalindrome.exe
   TARGET_IMPLIB = 4_Ranges\libIsPalindrome.dll.a
-  TARGET_PDB = IsPalindrome.exe.dbg
+  TARGET_PDB = 4_Ranges\IsPalindrome.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\IsPalindrome.dir
 
 # =============================================================================
@@ -3609,6 +3855,8 @@ build 4_Ranges/CMakeFiles/IsPunct.dir/IsPunct.cpp.obj: CXX_COMPILER__IsPunct_uns
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\IsPunct.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\IsPunct.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\IsPunct.dir\
+  TARGET_PDB = 4_Ranges\IsPunct.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\IsPunct.dir
 
 
@@ -3626,9 +3874,10 @@ build 4_Ranges/IsPunct.exe: CXX_EXECUTABLE_LINKER__IsPunct_Debug 4_Ranges/CMakeF
   OBJECT_DIR = 4_Ranges\CMakeFiles\IsPunct.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\IsPunct.dir\
   TARGET_FILE = 4_Ranges\IsPunct.exe
   TARGET_IMPLIB = 4_Ranges\libIsPunct.dll.a
-  TARGET_PDB = IsPunct.exe.dbg
+  TARGET_PDB = 4_Ranges\IsPunct.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\IsPunct.dir
 
 # =============================================================================
@@ -3646,6 +3895,8 @@ build 4_Ranges/CMakeFiles/LongestStreak.dir/LongestStreak.cpp.obj: CXX_COMPILER_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\LongestStreak.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\LongestStreak.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\LongestStreak.dir\
+  TARGET_PDB = 4_Ranges\LongestStreak.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\LongestStreak.dir
 
 
@@ -3663,9 +3914,10 @@ build 4_Ranges/LongestStreak.exe: CXX_EXECUTABLE_LINKER__LongestStreak_Debug 4_R
   OBJECT_DIR = 4_Ranges\CMakeFiles\LongestStreak.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\LongestStreak.dir\
   TARGET_FILE = 4_Ranges\LongestStreak.exe
   TARGET_IMPLIB = 4_Ranges\libLongestStreak.dll.a
-  TARGET_PDB = LongestStreak.exe.dbg
+  TARGET_PDB = 4_Ranges\LongestStreak.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\LongestStreak.dir
 
 # =============================================================================
@@ -3683,6 +3935,8 @@ build 4_Ranges/CMakeFiles/MajorityVote.dir/MajorityVote.cpp.obj: CXX_COMPILER__M
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\MajorityVote.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\MajorityVote.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\MajorityVote.dir\
+  TARGET_PDB = 4_Ranges\MajorityVote.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\MajorityVote.dir
 
 
@@ -3700,9 +3954,10 @@ build 4_Ranges/MajorityVote.exe: CXX_EXECUTABLE_LINKER__MajorityVote_Debug 4_Ran
   OBJECT_DIR = 4_Ranges\CMakeFiles\MajorityVote.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\MajorityVote.dir\
   TARGET_FILE = 4_Ranges\MajorityVote.exe
   TARGET_IMPLIB = 4_Ranges\libMajorityVote.dll.a
-  TARGET_PDB = MajorityVote.exe.dbg
+  TARGET_PDB = 4_Ranges\MajorityVote.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\MajorityVote.dir
 
 # =============================================================================
@@ -3720,6 +3975,8 @@ build 4_Ranges/CMakeFiles/Median.dir/Median.cpp.obj: CXX_COMPILER__Median_unscan
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Median.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Median.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Median.dir\
+  TARGET_PDB = 4_Ranges\Median.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Median.dir
 
 
@@ -3737,9 +3994,10 @@ build 4_Ranges/Median.exe: CXX_EXECUTABLE_LINKER__Median_Debug 4_Ranges/CMakeFil
   OBJECT_DIR = 4_Ranges\CMakeFiles\Median.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Median.dir\
   TARGET_FILE = 4_Ranges\Median.exe
   TARGET_IMPLIB = 4_Ranges\libMedian.dll.a
-  TARGET_PDB = Median.exe.dbg
+  TARGET_PDB = 4_Ranges\Median.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Median.dir
 
 # =============================================================================
@@ -3757,6 +4015,8 @@ build 4_Ranges/CMakeFiles/NthElement.dir/NthElement.cpp.obj: CXX_COMPILER__NthEl
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\NthElement.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\NthElement.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\NthElement.dir\
+  TARGET_PDB = 4_Ranges\NthElement.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\NthElement.dir
 
 
@@ -3774,9 +4034,10 @@ build 4_Ranges/NthElement.exe: CXX_EXECUTABLE_LINKER__NthElement_Debug 4_Ranges/
   OBJECT_DIR = 4_Ranges\CMakeFiles\NthElement.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\NthElement.dir\
   TARGET_FILE = 4_Ranges\NthElement.exe
   TARGET_IMPLIB = 4_Ranges\libNthElement.dll.a
-  TARGET_PDB = NthElement.exe.dbg
+  TARGET_PDB = 4_Ranges\NthElement.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\NthElement.dir
 
 # =============================================================================
@@ -3794,6 +4055,8 @@ build 4_Ranges/CMakeFiles/Partition.dir/Partition.cpp.obj: CXX_COMPILER__Partiti
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Partition.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Partition.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Partition.dir\
+  TARGET_PDB = 4_Ranges\Partition.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Partition.dir
 
 
@@ -3811,9 +4074,10 @@ build 4_Ranges/Partition.exe: CXX_EXECUTABLE_LINKER__Partition_Debug 4_Ranges/CM
   OBJECT_DIR = 4_Ranges\CMakeFiles\Partition.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Partition.dir\
   TARGET_FILE = 4_Ranges\Partition.exe
   TARGET_IMPLIB = 4_Ranges\libPartition.dll.a
-  TARGET_PDB = Partition.exe.dbg
+  TARGET_PDB = 4_Ranges\Partition.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Partition.dir
 
 # =============================================================================
@@ -3831,6 +4095,8 @@ build 4_Ranges/CMakeFiles/RangesExample.dir/RangesExample.cpp.obj: CXX_COMPILER_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesExample.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\RangesExample.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesExample.dir\
+  TARGET_PDB = 4_Ranges\RangesExample.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesExample.dir
 
 
@@ -3848,9 +4114,10 @@ build 4_Ranges/RangesExample.exe: CXX_EXECUTABLE_LINKER__RangesExample_Debug 4_R
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesExample.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesExample.dir\
   TARGET_FILE = 4_Ranges\RangesExample.exe
   TARGET_IMPLIB = 4_Ranges\libRangesExample.dll.a
-  TARGET_PDB = RangesExample.exe.dbg
+  TARGET_PDB = 4_Ranges\RangesExample.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesExample.dir
 
 # =============================================================================
@@ -3868,6 +4135,8 @@ build 4_Ranges/CMakeFiles/RangesRefactoring_Animals.dir/RangesRefactoring_Animal
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir\
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Animals.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir
 
 
@@ -3885,9 +4154,10 @@ build 4_Ranges/RangesRefactoring_Animals.exe: CXX_EXECUTABLE_LINKER__RangesRefac
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir\
   TARGET_FILE = 4_Ranges\RangesRefactoring_Animals.exe
   TARGET_IMPLIB = 4_Ranges\libRangesRefactoring_Animals.dll.a
-  TARGET_PDB = RangesRefactoring_Animals.exe.dbg
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Animals.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir
 
 # =============================================================================
@@ -3905,6 +4175,8 @@ build 4_Ranges/CMakeFiles/RangesRefactoring_Birthday.dir/RangesRefactoring_Birth
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir\
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Birthday.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir
 
 
@@ -3922,9 +4194,10 @@ build 4_Ranges/RangesRefactoring_Birthday.exe: CXX_EXECUTABLE_LINKER__RangesRefa
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir\
   TARGET_FILE = 4_Ranges\RangesRefactoring_Birthday.exe
   TARGET_IMPLIB = 4_Ranges\libRangesRefactoring_Birthday.dll.a
-  TARGET_PDB = RangesRefactoring_Birthday.exe.dbg
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Birthday.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir
 
 # =============================================================================
@@ -3942,6 +4215,8 @@ build 4_Ranges/CMakeFiles/RangesRefactoring_Countries.dir/RangesRefactoring_Coun
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir\
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Countries.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir
 
 
@@ -3959,9 +4234,10 @@ build 4_Ranges/RangesRefactoring_Countries.exe: CXX_EXECUTABLE_LINKER__RangesRef
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir\
   TARGET_FILE = 4_Ranges\RangesRefactoring_Countries.exe
   TARGET_IMPLIB = 4_Ranges\libRangesRefactoring_Countries.dll.a
-  TARGET_PDB = RangesRefactoring_Countries.exe.dbg
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Countries.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir
 
 # =============================================================================
@@ -3979,6 +4255,8 @@ build 4_Ranges/CMakeFiles/RangesRefactoring_Recipes.dir/RangesRefactoring_Recipe
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir\
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Recipes.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir
 
 
@@ -3996,9 +4274,10 @@ build 4_Ranges/RangesRefactoring_Recipes.exe: CXX_EXECUTABLE_LINKER__RangesRefac
   OBJECT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir\
   TARGET_FILE = 4_Ranges\RangesRefactoring_Recipes.exe
   TARGET_IMPLIB = 4_Ranges\libRangesRefactoring_Recipes.dll.a
-  TARGET_PDB = RangesRefactoring_Recipes.exe.dbg
+  TARGET_PDB = 4_Ranges\RangesRefactoring_Recipes.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir
 
 # =============================================================================
@@ -4016,6 +4295,8 @@ build 4_Ranges/CMakeFiles/Simpson.dir/Simpson.cpp.obj: CXX_COMPILER__Simpson_uns
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Simpson.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Simpson.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Simpson.dir\
+  TARGET_PDB = 4_Ranges\Simpson.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Simpson.dir
 
 
@@ -4033,9 +4314,10 @@ build 4_Ranges/Simpson.exe: CXX_EXECUTABLE_LINKER__Simpson_Debug 4_Ranges/CMakeF
   OBJECT_DIR = 4_Ranges\CMakeFiles\Simpson.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Simpson.dir\
   TARGET_FILE = 4_Ranges\Simpson.exe
   TARGET_IMPLIB = 4_Ranges\libSimpson.dll.a
-  TARGET_PDB = Simpson.exe.dbg
+  TARGET_PDB = 4_Ranges\Simpson.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Simpson.dir
 
 # =============================================================================
@@ -4053,6 +4335,8 @@ build 4_Ranges/CMakeFiles/SimpsonPro.dir/SimpsonPro.cpp.obj: CXX_COMPILER__Simps
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\SimpsonPro.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\SimpsonPro.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\SimpsonPro.dir\
+  TARGET_PDB = 4_Ranges\SimpsonPro.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\SimpsonPro.dir
 
 
@@ -4070,9 +4354,10 @@ build 4_Ranges/SimpsonPro.exe: CXX_EXECUTABLE_LINKER__SimpsonPro_Debug 4_Ranges/
   OBJECT_DIR = 4_Ranges\CMakeFiles\SimpsonPro.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\SimpsonPro.dir\
   TARGET_FILE = 4_Ranges\SimpsonPro.exe
   TARGET_IMPLIB = 4_Ranges\libSimpsonPro.dll.a
-  TARGET_PDB = SimpsonPro.exe.dbg
+  TARGET_PDB = 4_Ranges\SimpsonPro.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\SimpsonPro.dir
 
 # =============================================================================
@@ -4090,6 +4375,8 @@ build 4_Ranges/CMakeFiles/SortSubrange.dir/SortSubrange.cpp.obj: CXX_COMPILER__S
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\SortSubrange.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\SortSubrange.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\SortSubrange.dir\
+  TARGET_PDB = 4_Ranges\SortSubrange.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\SortSubrange.dir
 
 
@@ -4107,9 +4394,10 @@ build 4_Ranges/SortSubrange.exe: CXX_EXECUTABLE_LINKER__SortSubrange_Debug 4_Ran
   OBJECT_DIR = 4_Ranges\CMakeFiles\SortSubrange.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\SortSubrange.dir\
   TARGET_FILE = 4_Ranges\SortSubrange.exe
   TARGET_IMPLIB = 4_Ranges\libSortSubrange.dll.a
-  TARGET_PDB = SortSubrange.exe.dbg
+  TARGET_PDB = 4_Ranges\SortSubrange.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\SortSubrange.dir
 
 # =============================================================================
@@ -4127,6 +4415,8 @@ build 4_Ranges/CMakeFiles/STLintro.dir/STLintro.cpp.obj: CXX_COMPILER__STLintro_
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\STLintro.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\STLintro.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\STLintro.dir\
+  TARGET_PDB = 4_Ranges\STLintro.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\STLintro.dir
 
 
@@ -4144,9 +4434,10 @@ build 4_Ranges/STLintro.exe: CXX_EXECUTABLE_LINKER__STLintro_Debug 4_Ranges/CMak
   OBJECT_DIR = 4_Ranges\CMakeFiles\STLintro.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\STLintro.dir\
   TARGET_FILE = 4_Ranges\STLintro.exe
   TARGET_IMPLIB = 4_Ranges\libSTLintro.dll.a
-  TARGET_PDB = STLintro.exe.dbg
+  TARGET_PDB = 4_Ranges\STLintro.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\STLintro.dir
 
 # =============================================================================
@@ -4164,6 +4455,8 @@ build 4_Ranges/CMakeFiles/STLpro.dir/STLpro.cpp.obj: CXX_COMPILER__STLpro_unscan
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\STLpro.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\STLpro.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\STLpro.dir\
+  TARGET_PDB = 4_Ranges\STLpro.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\STLpro.dir
 
 
@@ -4181,9 +4474,10 @@ build 4_Ranges/STLpro.exe: CXX_EXECUTABLE_LINKER__STLpro_Debug 4_Ranges/CMakeFil
   OBJECT_DIR = 4_Ranges\CMakeFiles\STLpro.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\STLpro.dir\
   TARGET_FILE = 4_Ranges\STLpro.exe
   TARGET_IMPLIB = 4_Ranges\libSTLpro.dll.a
-  TARGET_PDB = STLpro.exe.dbg
+  TARGET_PDB = 4_Ranges\STLpro.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\STLpro.dir
 
 # =============================================================================
@@ -4201,6 +4495,8 @@ build 4_Ranges/CMakeFiles/Trap.dir/Trap.cpp.obj: CXX_COMPILER__Trap_unscanned_De
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = 4_Ranges\CMakeFiles\Trap.dir
   OBJECT_FILE_DIR = 4_Ranges\CMakeFiles\Trap.dir
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Trap.dir\
+  TARGET_PDB = 4_Ranges\Trap.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Trap.dir
 
 
@@ -4218,9 +4514,10 @@ build 4_Ranges/Trap.exe: CXX_EXECUTABLE_LINKER__Trap_Debug 4_Ranges/CMakeFiles/T
   OBJECT_DIR = 4_Ranges\CMakeFiles\Trap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 4_Ranges\CMakeFiles\Trap.dir\
   TARGET_FILE = 4_Ranges\Trap.exe
   TARGET_IMPLIB = 4_Ranges\libTrap.dll.a
-  TARGET_PDB = Trap.exe.dbg
+  TARGET_PDB = 4_Ranges\Trap.pdb
   TARGET_SUPPORT_DIR = 4_Ranges\CMakeFiles\Trap.dir
 
 
@@ -4765,14 +5062,14 @@ build 4_Ranges/all: phony 4_Ranges/Accumulate_1.exe 4_Ranges/Accumulate_2.exe 4_
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Prototype/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake
+build build.ninja C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/cmake_install.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CTestTestfile.cmake C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CTestTestfile.cmake: RERUN_CMAKE | C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Prototype/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Prototype/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake: phony
+build C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Prototype/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/CMakeLists.txt C$:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/CMakeLists.txt C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.2.3/CMakeCXXCompiler.cmake CMakeFiles/4.2.3/CMakeRCCompiler.cmake CMakeFiles/4.2.3/CMakeSystem.cmake: phony
 
 
 #############################################

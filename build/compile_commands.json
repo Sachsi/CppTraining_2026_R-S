@@ -1,0 +1,596 @@
+[
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Bridge\\CMakeFiles\\Bridge.dir\\Bridge.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Bridge\\Bridge.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/Bridge.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CMakeFiles/Bridge.dir/Bridge.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Bridge\\CMakeFiles\\Car_Bridge.dir\\Car_Bridge.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Bridge\\Car_Bridge.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/Car_Bridge.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CMakeFiles/Car_Bridge.dir/Car_Bridge.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Bridge\\CMakeFiles\\Car_Strategy.dir\\Car_Strategy.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Bridge\\Car_Strategy.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/Car_Strategy.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CMakeFiles/Car_Strategy.dir/Car_Strategy.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Bridge\\CMakeFiles\\FastPimpl.dir\\FastPimpl.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Bridge\\FastPimpl.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/FastPimpl.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CMakeFiles/FastPimpl.dir/FastPimpl.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Bridge\\CMakeFiles\\Pimpl.dir\\Pimpl.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Bridge\\Pimpl.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Bridge/Pimpl.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/CMakeFiles/Pimpl.dir/Pimpl.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\CRTP\\CMakeFiles\\CRTP.dir\\CRTP.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\CRTP\\CRTP.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/CRTP.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CMakeFiles/CRTP.dir/CRTP.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\CRTP\\CMakeFiles\\CRTP_Concept.dir\\CRTP_Concept.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\CRTP\\CRTP_Concept.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/CRTP_Concept.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CMakeFiles/CRTP_Concept.dir/CRTP_Concept.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\CRTP\\CMakeFiles\\DeducingThis.dir\\DeducingThis.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\CRTP\\DeducingThis.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/DeducingThis.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CMakeFiles/DeducingThis.dir/DeducingThis.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\CRTP\\CMakeFiles\\StaticInterfaces.dir\\StaticInterfaces.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\CRTP\\StaticInterfaces.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/StaticInterfaces.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CMakeFiles/StaticInterfaces.dir/StaticInterfaces.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\CRTP\\CMakeFiles\\Mixins.dir\\Mixins.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\CRTP\\Mixins.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/Mixins.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CMakeFiles/Mixins.dir/Mixins.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\CRTP\\CMakeFiles\\StrongType_CRTP.dir\\StrongType_CRTP.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\CRTP\\StrongType_CRTP.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP/StrongType_CRTP.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/CMakeFiles/StrongType_CRTP.dir/StrongType_CRTP.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Decorator\\CMakeFiles\\Decorator_Allocator.dir\\Decorator_Allocator.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Decorator\\Decorator_Allocator.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/Decorator_Allocator.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_Allocator.dir/Decorator_Allocator.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Decorator\\CMakeFiles\\Decorator_CppFanShop.dir\\Decorator_CppFanShop.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Decorator\\Decorator_CppFanShop.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/Decorator_CppFanShop.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_CppFanShop.dir/Decorator_CppFanShop.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Decorator\\CMakeFiles\\Decorator_CppFanShop_2.dir\\Decorator_CppFanShop_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Decorator\\Decorator_CppFanShop_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/Decorator_CppFanShop_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_CppFanShop_2.dir/Decorator_CppFanShop_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Decorator\\CMakeFiles\\Decorator_Fantasy.dir\\Decorator_Fantasy.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Decorator\\Decorator_Fantasy.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/Decorator_Fantasy.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_Fantasy.dir/Decorator_Fantasy.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Decorator\\CMakeFiles\\Decorator_Static.dir\\Decorator_Static.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Decorator\\Decorator_Static.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/Decorator_Static.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CMakeFiles/Decorator_Static.dir/Decorator_Static.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Decorator\\CMakeFiles\\SynchronizedPool.dir\\SynchronizedPool.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Decorator\\SynchronizedPool.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Decorator/SynchronizedPool.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/CMakeFiles/SynchronizedPool.dir/SynchronizedPool.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Expression_Templates\\CMakeFiles\\ExpressionTemplates.dir\\ExpressionTemplates.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Expression_Templates\\ExpressionTemplates.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/ExpressionTemplates.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/CMakeFiles/ExpressionTemplates.dir/ExpressionTemplates.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Expression_Templates\\CMakeFiles\\Niebloid.dir\\Niebloid.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Expression_Templates\\Niebloid.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/Niebloid.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/CMakeFiles/Niebloid.dir/Niebloid.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Expression_Templates\\CMakeFiles\\Ranges.dir\\Ranges.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Expression_Templates\\Ranges.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/Ranges.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/CMakeFiles/Ranges.dir/Ranges.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Expression_Templates\\CMakeFiles\\Ranges_std.dir\\Ranges_std.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Expression_Templates\\Ranges_std.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Expression_Templates/Ranges_std.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/CMakeFiles/Ranges_std.dir/Ranges_std.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\External_Polymorphism\\CMakeFiles\\Animal_EP.dir\\Animal_EP.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\External_Polymorphism\\Animal_EP.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/Animal_EP.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/CMakeFiles/Animal_EP.dir/Animal_EP.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\External_Polymorphism\\CMakeFiles\\ExternalPolymorphism_1.dir\\ExternalPolymorphism_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\External_Polymorphism\\ExternalPolymorphism_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/ExternalPolymorphism_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/CMakeFiles/ExternalPolymorphism_1.dir/ExternalPolymorphism_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\External_Polymorphism\\CMakeFiles\\ExternalPolymorphism_2.dir\\ExternalPolymorphism_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\External_Polymorphism\\ExternalPolymorphism_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/External_Polymorphism/ExternalPolymorphism_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/CMakeFiles/ExternalPolymorphism_2.dir/ExternalPolymorphism_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Motivation\\CMakeFiles\\DataOriented.dir\\DataOriented.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Motivation\\DataOriented.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/DataOriented.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/CMakeFiles/DataOriented.dir/DataOriented.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Motivation\\CMakeFiles\\ObjectOriented.dir\\ObjectOriented.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Motivation\\ObjectOriented.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/ObjectOriented.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/CMakeFiles/ObjectOriented.dir/ObjectOriented.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Motivation\\CMakeFiles\\Procedural.dir\\Procedural.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Motivation\\Procedural.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Motivation/Procedural.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/CMakeFiles/Procedural.dir/Procedural.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Prototype\\CMakeFiles\\Prototype.dir\\Prototype.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Prototype\\Prototype.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Prototype/Prototype.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/CMakeFiles/Prototype.dir/Prototype.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\FixedVector_Strategy.dir\\FixedVector_Strategy.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\FixedVector_Strategy.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/FixedVector_Strategy.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/FixedVector_Strategy.dir/FixedVector_Strategy.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\MultipleStrategies.dir\\MultipleStrategies.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\MultipleStrategies.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/MultipleStrategies.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/MultipleStrategies.dir/MultipleStrategies.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\Strategy_Benchmark.dir\\Strategy_Benchmark.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\Strategy_Benchmark.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/Strategy_Benchmark.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Benchmark.dir/Strategy_Benchmark.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\Strategy_Classic.dir\\Strategy_Classic.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\Strategy_Classic.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/Strategy_Classic.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Classic.dir/Strategy_Classic.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\Strategy_Refactoring.dir\\Strategy_Refactoring.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\Strategy_Refactoring.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/Strategy_Refactoring.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Refactoring.dir/Strategy_Refactoring.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\Strategy_Static.dir\\Strategy_Static.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\Strategy_Static.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/Strategy_Static.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/Strategy_Static.dir/Strategy_Static.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Strategy\\CMakeFiles\\UniquePtr_Strategy.dir\\UniquePtr_Strategy.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Strategy\\UniquePtr_Strategy.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Strategy/UniquePtr_Strategy.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/CMakeFiles/UniquePtr_Strategy.dir/UniquePtr_Strategy.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\Animal_TE.dir\\Animal_TE.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\Animal_TE.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/Animal_TE.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Animal_TE.dir/Animal_TE.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\Any_1.dir\\Any_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\Any_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/Any_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Any_1.dir/Any_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\Any_2.dir\\Any_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\Any_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/Any_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Any_2.dir/Any_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\Function_1.dir\\Function_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\Function_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/Function_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Function_1.dir/Function_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\Function_2.dir\\Function_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\Function_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/Function_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Function_2.dir/Function_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\Function_Ref.dir\\Function_Ref.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\Function_Ref.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/Function_Ref.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/Function_Ref.dir/Function_Ref.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\InplaceAny.dir\\InplaceAny.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\InplaceAny.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/InplaceAny.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/InplaceAny.dir/InplaceAny.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\InplaceFunction.dir\\InplaceFunction.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\InplaceFunction.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/InplaceFunction.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/InplaceFunction.dir/InplaceFunction.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\PolymorphicAllocator.dir\\PolymorphicAllocator.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\PolymorphicAllocator.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/PolymorphicAllocator.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/PolymorphicAllocator.dir/PolymorphicAllocator.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\TypeErasure_1.dir\\TypeErasure_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\TypeErasure_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/TypeErasure_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_1.dir/TypeErasure_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\TypeErasure_2.dir\\TypeErasure_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\TypeErasure_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/TypeErasure_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_2.dir/TypeErasure_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\TypeErasure_MVF.dir\\TypeErasure_MVF.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\TypeErasure_MVF.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/TypeErasure_MVF.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_MVF.dir/TypeErasure_MVF.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\TypeErasure_Ref.dir\\TypeErasure_Ref.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\TypeErasure_Ref.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/TypeErasure_Ref.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_Ref.dir/TypeErasure_Ref.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\TypeErasure_SBO_1.dir\\TypeErasure_SBO_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\TypeErasure_SBO_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/TypeErasure_SBO_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_SBO_1.dir/TypeErasure_SBO_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\TypeErasure_SBO_2.dir\\TypeErasure_SBO_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\TypeErasure_SBO_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/TypeErasure_SBO_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/TypeErasure_SBO_2.dir/TypeErasure_SBO_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Type_Erasure\\CMakeFiles\\UniquePtr_TypeErasure.dir\\UniquePtr_TypeErasure.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Type_Erasure\\UniquePtr_TypeErasure.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Type_Erasure/UniquePtr_TypeErasure.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/CMakeFiles/UniquePtr_TypeErasure.dir/UniquePtr_TypeErasure.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Visitor\\CMakeFiles\\AcyclicVisitor.dir\\AcyclicVisitor.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Visitor\\AcyclicVisitor.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/AcyclicVisitor.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CMakeFiles/AcyclicVisitor.dir/AcyclicVisitor.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Visitor\\CMakeFiles\\Variant.dir\\Variant.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Visitor\\Variant.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/Variant.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CMakeFiles/Variant.dir/Variant.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Visitor\\CMakeFiles\\Visitor_Benchmark.dir\\Visitor_Benchmark.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Visitor\\Visitor_Benchmark.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/Visitor_Benchmark.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Benchmark.dir/Visitor_Benchmark.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Visitor\\CMakeFiles\\Visitor_Classic.dir\\Visitor_Classic.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Visitor\\Visitor_Classic.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/Visitor_Classic.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Classic.dir/Visitor_Classic.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 2_Cpp_Software_Design\\Visitor\\CMakeFiles\\Visitor_Refactoring.dir\\Visitor_Refactoring.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\2_Cpp_Software_Design\\Visitor\\Visitor_Refactoring.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/Visitor/Visitor_Refactoring.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Refactoring.dir/Visitor_Refactoring.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\AssociativeContainer.dir\\AssociativeContainer.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\AssociativeContainer.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/AssociativeContainer.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/AssociativeContainer.dir/AssociativeContainer.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\Constraints2.dir\\Constraints2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\Constraints2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/Constraints2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/Constraints2.dir/Constraints2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\IsPalindrome_Concepts.dir\\IsPalindrome_Concepts.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\IsPalindrome_Concepts.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/IsPalindrome_Concepts.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/IsPalindrome_Concepts.dir/IsPalindrome_Concepts.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\Max_Concept.dir\\Max_Concept.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\Max_Concept.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/Max_Concept.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/Max_Concept.dir/Max_Concept.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\NarrowConversion2.dir\\NarrowConversion2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\NarrowConversion2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/NarrowConversion2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/NarrowConversion2.dir/NarrowConversion2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\Optional_Cpp20.dir\\Optional_Cpp20.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\Optional_Cpp20.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/Optional_Cpp20.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/Optional_Cpp20.dir/Optional_Cpp20.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\Optional_Trivial_1.dir\\Optional_Trivial_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\Optional_Trivial_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/Optional_Trivial_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/Optional_Trivial_1.dir/Optional_Trivial_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\Optional_Trivial_2.dir\\Optional_Trivial_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\Optional_Trivial_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/Optional_Trivial_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/Optional_Trivial_2.dir/Optional_Trivial_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\PassingConcepts.dir\\PassingConcepts.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\PassingConcepts.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/PassingConcepts.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/PassingConcepts.dir/PassingConcepts.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\SequenceContainer.dir\\SequenceContainer.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\SequenceContainer.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/SequenceContainer.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/SequenceContainer.dir/SequenceContainer.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\Sign2.dir\\Sign2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\Sign2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/Sign2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/Sign2.dir/Sign2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 3_Concepts\\CMakeFiles\\UniquePtr_Concepts.dir\\UniquePtr_Concepts.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\3_Concepts\\UniquePtr_Concepts.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/3_Concepts/UniquePtr_Concepts.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/CMakeFiles/UniquePtr_Concepts.dir/UniquePtr_Concepts.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Accumulate_1.dir\\Accumulate_1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Accumulate_1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Accumulate_1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Accumulate_1.dir/Accumulate_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Accumulate_2.dir\\Accumulate_2.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Accumulate_2.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Accumulate_2.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Accumulate_2.dir/Accumulate_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\AlgorithmPerformance1.dir\\AlgorithmPerformance1.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\AlgorithmPerformance1.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/AlgorithmPerformance1.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/AlgorithmPerformance1.dir/AlgorithmPerformance1.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\BadAccumulate.dir\\BadAccumulate.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\BadAccumulate.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/BadAccumulate.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/BadAccumulate.dir/BadAccumulate.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\BadCopy.dir\\BadCopy.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\BadCopy.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/BadCopy.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/BadCopy.dir/BadCopy.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\BadFind.dir\\BadFind.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\BadFind.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/BadFind.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/BadFind.dir/BadFind.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\BadRemove.dir\\BadRemove.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\BadRemove.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/BadRemove.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/BadRemove.dir/BadRemove.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\BadTransform.dir\\BadTransform.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\BadTransform.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/BadTransform.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/BadTransform.dir/BadTransform.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\CartesianProduct.dir\\CartesianProduct.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\CartesianProduct.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/CartesianProduct.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/CartesianProduct.dir/CartesianProduct.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\EqualRange.dir\\EqualRange.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\EqualRange.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/EqualRange.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/EqualRange.dir/EqualRange.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\ExtractStrings.dir\\ExtractStrings.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\ExtractStrings.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/ExtractStrings.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/ExtractStrings.dir/ExtractStrings.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Fibonacci.dir\\Fibonacci.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Fibonacci.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Fibonacci.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Fibonacci.dir/Fibonacci.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\IsEmailAddress.dir\\IsEmailAddress.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\IsEmailAddress.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/IsEmailAddress.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/IsEmailAddress.dir/IsEmailAddress.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\IsPalindrome.dir\\IsPalindrome.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\IsPalindrome.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/IsPalindrome.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/IsPalindrome.dir/IsPalindrome.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\IsPunct.dir\\IsPunct.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\IsPunct.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/IsPunct.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/IsPunct.dir/IsPunct.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\LongestStreak.dir\\LongestStreak.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\LongestStreak.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/LongestStreak.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/LongestStreak.dir/LongestStreak.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\MajorityVote.dir\\MajorityVote.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\MajorityVote.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/MajorityVote.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/MajorityVote.dir/MajorityVote.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Median.dir\\Median.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Median.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Median.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Median.dir/Median.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\NthElement.dir\\NthElement.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\NthElement.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/NthElement.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/NthElement.dir/NthElement.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Partition.dir\\Partition.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Partition.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Partition.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Partition.dir/Partition.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\RangesExample.dir\\RangesExample.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\RangesExample.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/RangesExample.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/RangesExample.dir/RangesExample.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\RangesRefactoring_Animals.dir\\RangesRefactoring_Animals.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\RangesRefactoring_Animals.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/RangesRefactoring_Animals.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/RangesRefactoring_Animals.dir/RangesRefactoring_Animals.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\RangesRefactoring_Birthday.dir\\RangesRefactoring_Birthday.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\RangesRefactoring_Birthday.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/RangesRefactoring_Birthday.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/RangesRefactoring_Birthday.dir/RangesRefactoring_Birthday.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\RangesRefactoring_Countries.dir\\RangesRefactoring_Countries.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\RangesRefactoring_Countries.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/RangesRefactoring_Countries.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/RangesRefactoring_Countries.dir/RangesRefactoring_Countries.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\RangesRefactoring_Recipes.dir\\RangesRefactoring_Recipes.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\RangesRefactoring_Recipes.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/RangesRefactoring_Recipes.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/RangesRefactoring_Recipes.dir/RangesRefactoring_Recipes.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Simpson.dir\\Simpson.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Simpson.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Simpson.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Simpson.dir/Simpson.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\SimpsonPro.dir\\SimpsonPro.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\SimpsonPro.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/SimpsonPro.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/SimpsonPro.dir/SimpsonPro.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\SortSubrange.dir\\SortSubrange.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\SortSubrange.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/SortSubrange.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/SortSubrange.dir/SortSubrange.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\STLintro.dir\\STLintro.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\STLintro.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/STLintro.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/STLintro.dir/STLintro.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\STLpro.dir\\STLpro.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\STLpro.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/STLpro.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/STLpro.dir/STLpro.cpp.obj"
+},
+{
+  "directory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++20 -o 4_Ranges\\CMakeFiles\\Trap.dir\\Trap.cpp.obj -c \"C:\\Users\\tobis\\Documents\\Software\\Weiterbildung\\CppTraining_2026_04_27_R&S\\Tasks\\4_Ranges\\Trap.cpp\"",
+  "file": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/4_Ranges/Trap.cpp",
+  "output": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/CMakeFiles/Trap.dir/Trap.cpp.obj"
+}
+]

@@ -1,0 +1,9 @@
+# ninja log v7
+25	2229	7989799434981809	2_Cpp_Software_Design/Motivation/CMakeFiles/Procedural.dir/Procedural.cpp.obj	5064246acd3d26bc
+2238	2738	7989799457172776	2_Cpp_Software_Design/Motivation/Procedural.exe	bf28e0c1fedb0508
+35	1906	7989803139182821	2_Cpp_Software_Design/Motivation/CMakeFiles/ObjectOriented.dir/ObjectOriented.cpp.obj	65fe949e6a818c48
+1908	2335	7989803157865261	2_Cpp_Software_Design/Motivation/ObjectOriented.exe	eae3d1939f8bc296
+44	2644	7989866990553365	2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Refactoring.dir/Visitor_Refactoring.cpp.obj	3f1a07ea51810cc7
+2646	3135	7989867016529458	2_Cpp_Software_Design/Visitor/Visitor_Refactoring.exe	9123db8a04d1c019
+25	2949	7989909924728489	2_Cpp_Software_Design/Visitor/CMakeFiles/Visitor_Refactoring.dir/Visitor_Refactoring.cpp.obj	3f1a07ea51810cc7
+2951	3480	7989909954020281	2_Cpp_Software_Design/Visitor/Visitor_Refactoring.exe	9123db8a04d1c019

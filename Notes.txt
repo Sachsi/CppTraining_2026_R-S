@@ -1,0 +1,10 @@
+SOLID:
+S: Single-Responsibility Principle (SRP)
+O: Open-Closed
+L: Liskov Substitution
+I: Interface
+D: 
+
+//byte buffer
+std::variant<int, double, string> v ;
+

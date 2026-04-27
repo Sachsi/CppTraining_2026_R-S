@@ -282,10 +282,16 @@ void drawAllShapes( Shapes const& shapes );
 
 void drawAllShapes( Shapes const& shapes )
 {
+   GLDrawer drawer{ gl::Color::red };
    for( auto const& shape : shapes )
    {
-      std::visit( GLDrawer{ gl::Color::red }, shape );
+      std::visit( drawer, shape );
    }
+
+   // Shape shape1;
+   // Shape shape2;
+
+   // std::visit( Overlap{}, shape1, shape2);
 }
 
 

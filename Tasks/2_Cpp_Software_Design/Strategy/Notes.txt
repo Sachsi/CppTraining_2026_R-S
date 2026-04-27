@@ -1,0 +1,27 @@
+#include <iostream>
+#include <memory>
+
+struct ChattyDeleter
+{
+    void operator()(int* ptr) const
+    {
+        std::cout << "Hurray, deleting an int pointer!\n";
+        delete ptr;
+    }
+};
+
+
+int main()
+{
+    // std::shared_ptr is ...
+    // 1.) very expensive
+    // 2.) shared -> anyone can use it -> global (if not const)
+    // 3.) dynamic memory
+    // 4.) a problem in cyclic lifetime dependencies
+    
+    
+    std::unique_ptr<int, ChattyDeleter> ptr{ new int{42}}; //strategy design
+    //std::vector<...>    //strategy design
+    
+    return 0;
+}

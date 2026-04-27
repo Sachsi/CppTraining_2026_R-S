@@ -8,3 +8,16 @@ D:
 //byte buffer
 std::variant<int, double, string> v ;
 
+file visitor_benuchmark.cpp
+
+int variable{}, use braces to initilization a default value
+but this type shoute not be an emty constructor
+it has to initilization the variables
+
+by std::vector<int>(3,5)  = (5, 5, 5)
+by std::vector<int>{3,5}  = {3, 5}
+braces makes a different
+
+variable extern of a function or class is static and get probeply initilized
+
+

@@ -153,6 +153,16 @@ struct Point
 class Circle;
 class Square;
 
+
+template < typename ShapeType >
+class DrawStrategytemp
+{
+ public:
+   virtual ~DrawStrategytemp() = default;
+
+   virtual void draw( ShapeType const& shape ) const = 0;
+};
+
 class DrawStrategy
 {
  public:
@@ -162,6 +172,22 @@ class DrawStrategy
    virtual void draw( Square const& square ) const = 0;
 };
 
+
+class DrawCircleStrategy
+{
+ public:
+   virtual ~DrawCircleStrategy() = default;
+
+   virtual void draw( Circle const& circle ) const = 0;
+};
+
+class DrawSquareStrategy
+{
+ public:
+   virtual ~DrawSquareStrategy() = default;
+
+   virtual void draw( Square const& square ) const = 0;
+};
 
 //---- <Shape.h> ----------------------------------------------------------------------------------
 

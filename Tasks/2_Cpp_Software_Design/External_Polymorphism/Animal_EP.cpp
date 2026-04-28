@@ -67,6 +67,22 @@ class Sheep
    std::string name_;
 };
 
+//---- <Sheep.h> ----------------------------------------------------------------------------------
+
+#include <iostream>
+#include <string>
+
+class Penguin
+{
+ public:
+   explicit Penguin( std::string name ) : name_{ std::move(name) } {}
+
+   std::string const& name() const { return name_; }
+   void slide() const { std::cout << name_ << " is sliding on ice\n"; }
+
+ private:
+   std::string name_;
+};
 
 //---- <Animal.h> ---------------------------------------------------------------------------------
 
@@ -74,8 +90,30 @@ class Sheep
 //       of animals.
 
 class AnimalConcept
-{};
+{
+  public:
+    virtual ~AnimalConcept() = default;
+    virtual void make_sound(/*..*/) const = 0;
+    //...
+};
 
+template <typename AnimalT>
+class AnimalModel : public AnimalConcept
+{
+  public:
+    explicit AnimalModel( AnimalT animal ) 
+    : animal_{ animal_ } {};
+
+    void make_sound(/*.. */) const override
+    {
+        //free_make_sound( static_cast<AnimalT const&>( animal_ ) );
+        free_make_sound( animal_ );
+    }
+  
+  private:
+  AnimalT animal_;
+
+};
 
 //---- <Animals.h> --------------------------------------------------------------------------------
 
@@ -98,6 +136,8 @@ using Animals = std::vector< std::unique_ptr<AnimalConcept> >;
 void free_make_sound( Dog const& d ) { std::cout << d.name() << ": bark!\n"; }
 void free_make_sound( Cat const& c ) { std::cout << c.name() << ": meow!\n"; }
 void free_make_sound( Sheep const& s ) { std::cout << s.name() << ": baa!\n"; }
+void free_make_sound( Penguin const& p ) { std::cout << p.name() << ": nootnoot!\n"; }
+void free_make_sound( int i) {std::cout << "int: " << i << "\n" ;}
 
 
 //---- <Main.cpp> ---------------------------------------------------------------------------------
@@ -111,17 +151,18 @@ void free_make_sound( Sheep const& s ) { std::cout << s.name() << ": baa!\n"; }
 
 int main()
 {
-   /*
+   
    Animals animals{};
 
    animals.emplace_back( std::make_unique<AnimalModel<Dog>>( Dog{ "Lassie" } ) );
    animals.emplace_back( std::make_unique<AnimalModel<Cat>>( Cat{ "Garfield" } ) );
    animals.emplace_back( std::make_unique<AnimalModel<Sheep>>( Sheep{ "Dolly" } ) );
+   animals.emplace_back( std::make_unique<AnimalModel<Penguin>>( Penguin{ "Skipper" } ) );
 
    for( auto const& animal : animals ) {
       animal->make_sound();
    }
-   */
+   
 
    return EXIT_SUCCESS;
 }

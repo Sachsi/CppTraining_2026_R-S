@@ -146,13 +146,7 @@ struct Point
 
 //---- <Shape.h> ----------------------------------------------------------------------------------
 
-class Shape
-{
- public:
-   virtual ~Shape() = default;
-
-   virtual void draw() const = 0;
-};
+//removed base class of shape
 
 
 //---- <Circle.h> ---------------------------------------------------------------------------------
@@ -161,7 +155,7 @@ class Shape
 //#include <Point.h>
 //#include <GraphicsLibrary.h>
 
-class Circle : public Shape
+class Circle
 {
  public:
    explicit Circle( double radius, gl::Color color )
@@ -172,7 +166,7 @@ class Circle : public Shape
    double radius() const { return radius_; }
    Point  center() const { return center_; }
 
-   void draw() const override;
+   void draw() const;
 
  private:
    double radius_{};
@@ -199,7 +193,7 @@ void Circle::draw() const
 //#include <Point.h>
 //#include <GraphicsLibrary.h>
 
-class Square : public Shape
+class Square
 {
  public:
    explicit Square( double side, gl::Color color )
@@ -210,7 +204,7 @@ class Square : public Shape
    double side() const { return side_; }
    Point  center() const { return center_; }
 
-   void draw() const override;
+   void draw() const;
 
  private:
    double side_{};
@@ -269,26 +263,7 @@ void free_draw( Square const& square, gl::Color color )
 //#include <GraphicsLibrary.h>
 #include <iostream>
 
-class GLDrawer
-{
- public:
-   explicit GLDrawer( gl::Color color ) : color_{color} {}
-
-   void operator()( Circle const& circle ) const
-   {
-      std::cout << "circle: radius=" << circle.radius()
-                << ", color = " << gl::to_string(color_) << '\n';
-   }
-
-   void operator()( Square const& square ) const
-   {
-      std::cout << "square: side=" << square.side()
-                << ", color = " << gl::to_string(color_) << '\n';
-   }
-
- private:
-   gl::Color color_{};
-};
+//removed glDrawer class because of own free_drawer function
 
 
 //---- <ShapeConcept.h> ---------------------------------------------------------------------------
@@ -296,9 +271,34 @@ class GLDrawer
 // TODO: Create an external hierarchy for shapes that represents the polymorphic behavior
 //       of shapes.
 
-class ShapeConcept
-{};
+// 1. Introduce the ShapeConcept hierarchy (incl. the "ShapeModel" class)
+// 2. Compiling and "test" 
+// 3. Switch from 'Shape' to 'ShapeConcept' (update main and all other places where 'Shape' is used)
+// 4. compile and "test" again
+// 5. Remove the old 'Shape' hierarchy (incl. the "ShapeModel" class)
+// 6. compile and "test" again
+// 7.
 
+class ShapeConcept
+{
+   public:
+      virtual ~ShapeConcept() = default;
+      virtual void draw() const = 0;
+};
+
+template <typename ShapeT>
+class ShapeModel : public ShapeConcept
+{
+   public:
+      explicit ShapeModel( ShapeT shape ) : shape_{shape}
+       {}
+      void draw() const override
+      {
+         free_draw( shape_, gl::Color::red );
+      }
+   private:
+      ShapeT shape_;
+};
 
 //---- <Shapes.h> ---------------------------------------------------------------------------------
 
@@ -306,7 +306,7 @@ class ShapeConcept
 #include <memory>
 #include <vector>
 
-using Shapes = std::vector<std::unique_ptr<Shape>>;
+using Shapes = std::vector<std::unique_ptr<ShapeConcept>>;
 
 
 //---- <DrawAllShapes.h> --------------------------------------------------------------------------
@@ -341,9 +341,9 @@ int main()
 {
    Shapes shapes{};
 
-   shapes.emplace_back( std::make_unique<Circle>( 2.3, gl::Color::red   ) );
-   shapes.emplace_back( std::make_unique<Square>( 1.2, gl::Color::green ) );
-   shapes.emplace_back( std::make_unique<Circle>( 4.1, gl::Color::blue  ) );
+   shapes.emplace_back( std::make_unique< ShapeModel< Circle > >( Circle{2.3, gl::Color::red} ));
+   shapes.emplace_back( std::make_unique< ShapeModel< Square > >( Square{1.2, gl::Color::green} ));
+   shapes.emplace_back( std::make_unique< ShapeModel< Circle > >( Circle{4.1, gl::Color::blue} ));
 
    drawAllShapes( shapes );
 

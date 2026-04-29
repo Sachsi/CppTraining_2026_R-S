@@ -158,9 +158,8 @@ struct Point
 class Circle
 {
  public:
-   explicit Circle( double radius, gl::Color color )
+   explicit Circle( double radius)
       : radius_{ radius }
-      , color_{ color }
    {}
 
    double radius() const { return radius_; }
@@ -171,7 +170,6 @@ class Circle
  private:
    double radius_{};
    Point center_{};
-   gl::Color color_{};
 };
 
 
@@ -182,8 +180,8 @@ class Circle
 
 void Circle::draw() const
 {
-   std::cout << "circle: radius=" << radius_
-             << ", color = " << gl::to_string(color_) << '\n';
+   std::cout << "circle: radius=" << radius_;
+             //<< ", color = " << gl::to_string(color_) << '\n';
 }
 
 
@@ -196,9 +194,8 @@ void Circle::draw() const
 class Square
 {
  public:
-   explicit Square( double side, gl::Color color )
+   explicit Square( double side)
       : side_{ side }
-      , color_{ color }
    {}
 
    double side() const { return side_; }
@@ -209,7 +206,6 @@ class Square
  private:
    double side_{};
    Point center_{};
-   gl::Color color_{};
 };
 
 
@@ -220,8 +216,8 @@ class Square
 
 void Square::draw() const
 {
-   std::cout << "square: side=" << side_
-             << ", color = " << gl::to_string(color_) << '\n';
+   std::cout << "square: side=" << side_;
+            // << ", color = " << gl::to_string(GLDrawer{ gl::Color::green }) << '\n';
 }
 
 
@@ -264,7 +260,26 @@ void free_draw( Square const& square, gl::Color color )
 #include <iostream>
 
 //removed glDrawer class because of own free_drawer function
+class GLDrawer
+{
+ public:
+   explicit GLDrawer( gl::Color color ) : color_{color} {}
 
+   void operator()( Circle const& circle ) const
+   {
+      std::cout << "circle: radius=" << circle.radius()
+                << ", color = " << gl::to_string(color_) << '\n';
+   }
+
+   void operator()( Square const& square ) const
+   {
+      std::cout << "square: side=" << square.side()
+                << ", color = " << gl::to_string(color_) << '\n';
+   }
+
+ private:
+   gl::Color color_{};
+};
 
 //---- <ShapeConcept.h> ---------------------------------------------------------------------------
 
@@ -279,25 +294,45 @@ void free_draw( Square const& square, gl::Color color )
 // 6. compile and "test" again
 // 7.
 
-class ShapeConcept
+class Shape
 {
    public:
-      virtual ~ShapeConcept() = default;
-      virtual void draw() const = 0;
-};
+      template <typename ShapeT, typename DrawStrategy>
+      Shape( ShapeT shape, DrawStrategy drawer )
+      : model_{ std::make_unique<ShapeModel<ShapeT, DrawStrategy>>( shape, drawer ) }
+      {}
 
-template <typename ShapeT>
-class ShapeModel : public ShapeConcept
-{
-   public:
-      explicit ShapeModel( ShapeT shape ) : shape_{shape}
-       {}
-      void draw() const override
+      void draw() const
       {
-         free_draw( shape_, gl::Color::red );
+         model_->draw();
       }
+
    private:
-      ShapeT shape_;
+      class ShapeConcept
+      {
+         public:
+            virtual ~ShapeConcept() = default;
+            virtual void draw() const = 0;
+      };
+
+      template <typename ShapeT, typename DrawStrategy>
+      class ShapeModel : public ShapeConcept
+      {
+         public:
+            explicit ShapeModel( ShapeT shape, DrawStrategy drawer )
+            : shape_{shape},
+            drawer_{drawer}
+            {}
+            void draw() const override
+            {
+               drawer_( shape_);
+            }
+         private:
+            ShapeT shape_;
+            DrawStrategy drawer_;
+      };
+
+      std::unique_ptr< ShapeConcept > model_; // Pointer - to - IMPLementation (PIMPL) idiom
 };
 
 //---- <Shapes.h> ---------------------------------------------------------------------------------
@@ -306,7 +341,7 @@ class ShapeModel : public ShapeConcept
 #include <memory>
 #include <vector>
 
-using Shapes = std::vector<std::unique_ptr<ShapeConcept>>;
+using Shapes = std::vector<Shape>;
 
 
 //---- <DrawAllShapes.h> --------------------------------------------------------------------------
@@ -324,7 +359,7 @@ void drawAllShapes( Shapes const& shapes )
 {
    for( auto const& shape : shapes )
    {
-      shape->draw();
+      shape.draw();
    }
 }
 
@@ -337,13 +372,14 @@ void drawAllShapes( Shapes const& shapes )
 //#include <DrawAllShapes.h>
 #include <cstdlib>
 
+
 int main()
 {
    Shapes shapes{};
 
-   shapes.emplace_back( std::make_unique< ShapeModel< Circle > >( Circle{2.3, gl::Color::red} ));
-   shapes.emplace_back( std::make_unique< ShapeModel< Square > >( Square{1.2, gl::Color::green} ));
-   shapes.emplace_back( std::make_unique< ShapeModel< Circle > >( Circle{4.1, gl::Color::blue} ));
+   shapes.emplace_back( Shape( Circle{2.3}, GLDrawer{ gl::Color::red } ) );
+   shapes.emplace_back( Shape( Square{1.2}, GLDrawer{ gl::Color::green } ) );
+   shapes.emplace_back( Shape( Circle{4.5}, GLDrawer{ gl::Color::blue } ) );
 
    drawAllShapes( shapes );
 

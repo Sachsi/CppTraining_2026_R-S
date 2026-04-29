@@ -42,7 +42,33 @@
 
 // Step 1: Define the 'SequenceContainer' concept
 // TODO
-
+template< typename T >
+concept SequenceContainer = 
+   std::is_class_v<T> and  // Type Trait 
+   std::regular<T> and     // Regular Type C++20 concept
+   requires                // requires expression
+   {
+      typename T::value_type;
+      typename T::iterator;
+      typename T::const_iterator;
+   } and
+   requires ( T t ) //t belongs to a wish list
+   {
+      {t.begin()} -> std::same_as< typename T::iterator>;
+      {t.end()} -> std::same_as< typename T::iterator>;
+   } and
+   requires( T const t)
+   {
+      {t.empty()} -> std::same_as<bool>;
+      {t.capacity()} -> std::integral;
+      {t.size()} -> std::integral; // std::convertible_to<std::size_t>;
+      {t.begin()} -> std::same_as< typename T::const_iterator>;
+      {t.end()} -> std::same_as< typename T::const_iterator>;
+   } and
+   requires ( T t, typename T::value_type value )
+   {
+      t.push_back(value);
+   };
 
 // Step 2: Define the 'IsSequenceContainer' type trait, including the according variable template
 // TODO
@@ -50,14 +76,35 @@
 
 // Step 1: Constrain the 'addElement()' functions such that for sequence containers the
 //         'push_back()' function is used and for associative containers the 'insert()' function.
-/*
+
+// Solution 1: Use 'if constexpr' in the function body 
+// first-match compiler will be used
+// template< typename T, typename V >
+// void addElement( T& container, V const& value )
+// {
+//    // TODO: Add elements to the container with either 'push_back()' or 'insert()'
+//    if constexpr( SequenceContainer<T>)
+//    {
+//       container.push_back( value );  // for sequence containers
+//    }
+//    else
+//    {
+//       container.insert( value );     // for associative containers
+//    }
+// }
+
+//Solution 2 compiler match the best candidate function template
+template< typename T, typename V >
+void addElement( T& container, V const& value )  requires SequenceContainer<T>
+{
+   container.push_back( value );  // for sequence containers
+}
+
 template< typename T, typename V >
 void addElement( T& container, V const& value )
 {
-   // TODO: Add elements to the container with either 'push_back()' or 'insert()'
+   container.insert( value );     // for associative containers
 }
-*/
-
 
 template< typename T >
 void print( T const& container )
@@ -72,7 +119,7 @@ void print( T const& container )
 
 int main()
 {
-   /*
+   
    std::vector<int> v{};
    std::set<int> s{};
 
@@ -83,7 +130,7 @@ int main()
 
    print( v );
    print( s );
-   */
+   
 
    return EXIT_SUCCESS;
 }

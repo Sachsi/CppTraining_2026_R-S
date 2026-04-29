@@ -40,31 +40,51 @@
 //         convertible to 'int' and to have a size greater than or equal to the size of 'int'.
 // TODO
 
+template< typename T >
+concept IntCompatible =
+   std::convertible_to<T, int> and (sizeof(T) >= sizeof(int));
 
 // Task 2: Implement the concept 'Arithmetic' that requires the given type 'T' to be either
 //         an integral or floating point type, but does not accept 'bool'.
 // TODO
-
+template< typename T >
+concept Arithmetic = 
+   (std::integral<T> or std::floating_point<T>) and not std::same_as<typename std::remove_cv<T>, bool>;
 
 // Task 3: Implement the concept 'NonConstReference' that requires the given type 'T' to
 //         be a reference to a non-const type.
 // TODO
-
+template< typename T >
+concept NonConstReference =
+   std::is_reference_v<T> and not std::is_const_v<std::remove_reference_t<T>>;
 
 // Task 4: Implement the concept 'IntegralAddable' that requires the given type 'T' to be
 //         addable. The result of the addition should yield an integral value.
 // TODO
-
+template< typename T >
+concept IntegralAddable =
+   requires ( T t) {
+      { t +t } -> std::integral;
+   };
 
 // Task 5: Implement the concept 'NoNarrowingConversion' that prevents narrowing conversions
 //         between the given types 'From' and 'To'.
 // TODO
-
+template< typename From, typename To >
+concept NoNarrowingConversion =
+   std::convertible_to<From, To > and
+   requires ( From from ) {
+      To{from}; // list initialization prevents narrowing conversions
+   };
 
 // Task 6: Implement the concept 'CompleteType' that requires the given type 'T' to be a
 //         complete type.
 // TODO
-
+template< typename T >
+concept CompleteType =
+   requires {  
+      sizeof(T);
+   };
 
 //---- <Main.cpp> ---------------------------------------------------------------------------------
 
@@ -84,7 +104,6 @@ struct Incomplete;
 int main()
 {
    // Task 1
-   /*
    static_assert(     IntCompatible<int> );
    static_assert(     IntCompatible<unsigned int> );
    static_assert(     IntCompatible<long> );
@@ -94,7 +113,6 @@ int main()
    static_assert( not IntCompatible<char> );
    static_assert( not IntCompatible<unsigned short> );
    static_assert( not IntCompatible<std::string> );
-   */
 
    // Task 2
    /*
@@ -111,27 +129,26 @@ int main()
    */
 
    // Task 3
-   /*
+
    static_assert(     NonConstReference<int&> );
    static_assert(     NonConstReference<int&&> );
    static_assert( not NonConstReference<int> );
    static_assert( not NonConstReference<int const> );
    static_assert( not NonConstReference<int const&> );
    static_assert( not NonConstReference<int const&&> );
-   */
+   
 
    // Task 4
-   /*
+
    static_assert(     IntegralAddable<int> );
    static_assert(     IntegralAddable<long> );
    static_assert(     IntegralAddable<Widget> );
    static_assert( not IntegralAddable<float> );
    static_assert( not IntegralAddable<std::string> );
    static_assert( not IntegralAddable<Gadget> );
-   */
+
 
    // Task 5
-   /*
    static_assert(     NoNarrowingConversion<int,int> );
    static_assert(     NoNarrowingConversion<int,long> );
    static_assert(     NoNarrowingConversion<float,double> );
@@ -142,17 +159,15 @@ int main()
    static_assert( not NoNarrowingConversion<int,double> );
    static_assert( not NoNarrowingConversion<double,float> );
    static_assert( not NoNarrowingConversion<double,Widget> );
-   */
+
 
    // Task 6
-   /*
    static_assert(     CompleteType<int> );
    static_assert(     CompleteType<int*> );
    static_assert(     CompleteType<int&> );
    static_assert(     CompleteType<std::string> );
    static_assert(     CompleteType<Complete> );
    static_assert( not CompleteType<Incomplete> );
-   */
 
    return EXIT_SUCCESS;
 }

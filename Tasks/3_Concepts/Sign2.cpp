@@ -21,7 +21,7 @@ using namespace std::string_literals;
 
 
 // TODO: Constrain the 'sign()' function to only integral types by means of C++20 concepts.
-template< typename T >
+template< std::integral T >
 constexpr T
    sign( T a ) noexcept
 {
@@ -34,7 +34,8 @@ constexpr T
 int main()
 {
    std::cout << "\n"
-             << " sign(  5 ) = " << sign(  5 ) << "\n"
+             //<< " iee electronic
+             //(  5 ) = " << sign(  5 ) << "\n"
              << " sign(  0 ) = " << sign(  0 ) << "\n"
              << " sign( -5 ) = " << sign( -5 ) << "\n"
              << "\n";

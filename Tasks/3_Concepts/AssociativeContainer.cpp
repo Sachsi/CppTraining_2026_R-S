@@ -44,7 +44,43 @@
 
 // Step 1: Define the 'AssociativeContainer' concept
 // TODO
-
+template< typename T >
+concept AssociativeContainer = 
+   std::is_class_v<T> and // Type Trait
+   std::regular<T> and    // regular type C++20 concept
+   requires               // requires expression
+   {
+      typename T::value_type;
+      typename T::key_type;
+      //typename T::iterator;
+      //typename T::const_iterator;
+   } and
+   requires ( T t ) // t belongs to a wish list
+   {
+      // { t.empty() } -> std::same_as <bool>;
+      // { t.size() } -> std::integral; // std::convertible_to<std::size_t>;
+      // { t.begin() } -> std::same_as < typename T::iterator >;
+      // { t.end() } -> std::same_as < typename T::iterator >;
+      // { t.insert( typename T::value_type{} ) };
+      // { t.find( typename T::key_type{} ) };
+      { t.begin() } -> std::same_as < typename T::iterator >;
+      { t.end() } -> std::same_as < typename T::iterator >;
+   } and
+   requires ( T const t)
+   {
+      { t.cbegin() } -> std::same_as < typename T::const_iterator >;
+      { t.cend() } -> std::same_as < typename T::const_iterator >;
+      { t.empty() } -> std::same_as <bool>;
+      { t.size() } -> std::integral; // std::convertible_to<std::size_t>;
+      { t.begin() } -> std::same_as < typename T::const_iterator >;
+      { t.end() } -> std::same_as < typename T::const_iterator >;
+      { t.insert( typename T::value_type{} ) };
+      { t.find( typename T::key_type{} ) };
+   } and
+   requires ( T t, typename T::value_type value )
+   {
+      t.insert( value );
+   };
 
 // Step 2: Define the 'IsAssociativeContainer' type trait, including the according variable template
 // TODO
@@ -52,13 +88,21 @@
 
 // Step 1: Constrain the 'addElement()' functions such that for associative containers the
 //         'insert()' function is used and for sequential containers the 'push_back()' function.
-/*
+
 template< typename T, typename V >
 void addElement( T& container, V const& value )
 {
    // TODO: Add elements to the container with either 'insert()' or 'push_back()'
+   if constexpr( AssociativeContainer<T>)
+   {
+      container.insert( value );    // for associative containers
+   }
+   else
+   {
+      container.push_back( value );  // for sequence containers
+   }
 }
-*/
+
 
 
 template< typename T >
@@ -74,7 +118,7 @@ void print( T const& container )
 
 int main()
 {
-   /*
+   
    std::vector<int> v{};
    std::set<int> s{};
 
@@ -85,7 +129,7 @@ int main()
 
    print( v );
    print( s );
-   */
+   
 
    return EXIT_SUCCESS;
 }

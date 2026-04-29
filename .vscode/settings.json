@@ -1,3 +1,12 @@
 {
-    "cmake.sourceDirectory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks"
+    "cmake.configureOnEdit": true,
+    "cmake.sourceDirectory": "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/Tasks",
+    "cmake.cmakePath": "C:/IDE_Tools/cmake/bin/cmake.exe",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.additionalKits": [
+        "C:/IDE_Tools/cmake/bin/cmake.exe"
+    ],
+    "cmake.configureOnOpen": true,
+    "cmake.buildBeforeRun": true,
+    "cmake.generator": "Ninja"
 }

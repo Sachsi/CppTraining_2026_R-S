@@ -32,7 +32,7 @@ rule CXX_SCAN__Bridge_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Bridge_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Bridge.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -63,7 +63,7 @@ rule CXX_COMPILER__Bridge_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Bridge_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -81,7 +81,7 @@ rule CXX_SCAN__Car_Bridge_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Car_Bridge_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Bridge.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -112,7 +112,7 @@ rule CXX_COMPILER__Car_Bridge_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Car_Bridge_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -130,7 +130,7 @@ rule CXX_SCAN__Car_Strategy_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Car_Strategy_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Car_Strategy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -161,7 +161,7 @@ rule CXX_COMPILER__Car_Strategy_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Car_Strategy_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -179,7 +179,7 @@ rule CXX_SCAN__FastPimpl_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__FastPimpl_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\FastPimpl.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -210,7 +210,7 @@ rule CXX_COMPILER__FastPimpl_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__FastPimpl_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -228,7 +228,7 @@ rule CXX_SCAN__Pimpl_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Pimpl_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Bridge\CMakeFiles\Pimpl.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -259,7 +259,7 @@ rule CXX_COMPILER__Pimpl_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Pimpl_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -277,7 +277,7 @@ rule CXX_SCAN__CRTP_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__CRTP_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -308,7 +308,7 @@ rule CXX_COMPILER__CRTP_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__CRTP_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -326,7 +326,7 @@ rule CXX_SCAN__CRTP_Concept_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__CRTP_Concept_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\CRTP_Concept.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -357,7 +357,7 @@ rule CXX_COMPILER__CRTP_Concept_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__CRTP_Concept_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -375,7 +375,7 @@ rule CXX_SCAN__DeducingThis_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__DeducingThis_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\DeducingThis.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -406,7 +406,7 @@ rule CXX_COMPILER__DeducingThis_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__DeducingThis_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -424,7 +424,7 @@ rule CXX_SCAN__StaticInterfaces_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__StaticInterfaces_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\StaticInterfaces.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -455,7 +455,7 @@ rule CXX_COMPILER__StaticInterfaces_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__StaticInterfaces_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -473,7 +473,7 @@ rule CXX_SCAN__Mixins_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Mixins_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\Mixins.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -504,7 +504,7 @@ rule CXX_COMPILER__Mixins_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Mixins_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -522,7 +522,7 @@ rule CXX_SCAN__StrongType_CRTP_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__StrongType_CRTP_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\CRTP\CMakeFiles\StrongType_CRTP.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -553,7 +553,7 @@ rule CXX_COMPILER__StrongType_CRTP_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__StrongType_CRTP_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -571,7 +571,7 @@ rule CXX_SCAN__Decorator_Allocator_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Decorator_Allocator_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Allocator.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -602,7 +602,7 @@ rule CXX_COMPILER__Decorator_Allocator_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Decorator_Allocator_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -620,7 +620,7 @@ rule CXX_SCAN__Decorator_CppFanShop_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Decorator_CppFanShop_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -651,7 +651,7 @@ rule CXX_COMPILER__Decorator_CppFanShop_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Decorator_CppFanShop_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -669,7 +669,7 @@ rule CXX_SCAN__Decorator_CppFanShop_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Decorator_CppFanShop_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_CppFanShop_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -700,7 +700,7 @@ rule CXX_COMPILER__Decorator_CppFanShop_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Decorator_CppFanShop_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -718,7 +718,7 @@ rule CXX_SCAN__Decorator_Fantasy_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Decorator_Fantasy_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Fantasy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -749,7 +749,7 @@ rule CXX_COMPILER__Decorator_Fantasy_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Decorator_Fantasy_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -767,7 +767,7 @@ rule CXX_SCAN__Decorator_Static_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Decorator_Static_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\Decorator_Static.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -798,7 +798,7 @@ rule CXX_COMPILER__Decorator_Static_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Decorator_Static_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -816,7 +816,7 @@ rule CXX_SCAN__SynchronizedPool_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__SynchronizedPool_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Decorator\CMakeFiles\SynchronizedPool.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -847,7 +847,7 @@ rule CXX_COMPILER__SynchronizedPool_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__SynchronizedPool_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -865,7 +865,7 @@ rule CXX_SCAN__ExpressionTemplates_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__ExpressionTemplates_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\ExpressionTemplates.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -896,7 +896,7 @@ rule CXX_COMPILER__ExpressionTemplates_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ExpressionTemplates_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -914,7 +914,7 @@ rule CXX_SCAN__Niebloid_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Niebloid_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Niebloid.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -945,7 +945,7 @@ rule CXX_COMPILER__Niebloid_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Niebloid_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -963,7 +963,7 @@ rule CXX_SCAN__Ranges_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Ranges_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -994,7 +994,7 @@ rule CXX_COMPILER__Ranges_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Ranges_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1012,7 +1012,7 @@ rule CXX_SCAN__Ranges_std_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Ranges_std_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Expression_Templates\CMakeFiles\Ranges_std.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1043,7 +1043,7 @@ rule CXX_COMPILER__Ranges_std_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Ranges_std_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1061,7 +1061,7 @@ rule CXX_SCAN__Animal_EP_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Animal_EP_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\Animal_EP.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1092,7 +1092,7 @@ rule CXX_COMPILER__Animal_EP_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Animal_EP_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1110,7 +1110,7 @@ rule CXX_SCAN__ExternalPolymorphism_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__ExternalPolymorphism_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1141,7 +1141,7 @@ rule CXX_COMPILER__ExternalPolymorphism_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ExternalPolymorphism_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1159,7 +1159,7 @@ rule CXX_SCAN__ExternalPolymorphism_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__ExternalPolymorphism_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\External_Polymorphism\CMakeFiles\ExternalPolymorphism_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1190,7 +1190,7 @@ rule CXX_COMPILER__ExternalPolymorphism_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ExternalPolymorphism_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1208,7 +1208,7 @@ rule CXX_SCAN__DataOriented_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__DataOriented_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Motivation\CMakeFiles\DataOriented.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1239,7 +1239,7 @@ rule CXX_COMPILER__DataOriented_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__DataOriented_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1257,7 +1257,7 @@ rule CXX_SCAN__ObjectOriented_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__ObjectOriented_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Motivation\CMakeFiles\ObjectOriented.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1288,7 +1288,7 @@ rule CXX_COMPILER__ObjectOriented_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ObjectOriented_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1306,7 +1306,7 @@ rule CXX_SCAN__Procedural_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Procedural_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Motivation\CMakeFiles\Procedural.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1337,7 +1337,7 @@ rule CXX_COMPILER__Procedural_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Procedural_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1355,7 +1355,7 @@ rule CXX_SCAN__Prototype_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Prototype_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Prototype\CMakeFiles\Prototype.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1386,7 +1386,7 @@ rule CXX_COMPILER__Prototype_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Prototype_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1404,7 +1404,7 @@ rule CXX_SCAN__FixedVector_Strategy_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__FixedVector_Strategy_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\FixedVector_Strategy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1435,7 +1435,7 @@ rule CXX_COMPILER__FixedVector_Strategy_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__FixedVector_Strategy_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1453,7 +1453,7 @@ rule CXX_SCAN__MultipleStrategies_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__MultipleStrategies_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\MultipleStrategies.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1484,7 +1484,7 @@ rule CXX_COMPILER__MultipleStrategies_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__MultipleStrategies_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1502,7 +1502,7 @@ rule CXX_SCAN__Strategy_Benchmark_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Strategy_Benchmark_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Benchmark.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1533,7 +1533,7 @@ rule CXX_COMPILER__Strategy_Benchmark_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Strategy_Benchmark_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1551,7 +1551,7 @@ rule CXX_SCAN__Strategy_Classic_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Strategy_Classic_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Classic.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1582,7 +1582,7 @@ rule CXX_COMPILER__Strategy_Classic_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Strategy_Classic_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1600,7 +1600,7 @@ rule CXX_SCAN__Strategy_Refactoring_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Strategy_Refactoring_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Refactoring.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1631,7 +1631,7 @@ rule CXX_COMPILER__Strategy_Refactoring_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Strategy_Refactoring_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1649,7 +1649,7 @@ rule CXX_SCAN__Strategy_Static_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Strategy_Static_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\Strategy_Static.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1680,7 +1680,7 @@ rule CXX_COMPILER__Strategy_Static_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Strategy_Static_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1698,7 +1698,7 @@ rule CXX_SCAN__UniquePtr_Strategy_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__UniquePtr_Strategy_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Strategy\CMakeFiles\UniquePtr_Strategy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1729,7 +1729,7 @@ rule CXX_COMPILER__UniquePtr_Strategy_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__UniquePtr_Strategy_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1747,7 +1747,7 @@ rule CXX_SCAN__Animal_TE_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Animal_TE_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Animal_TE.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1778,7 +1778,7 @@ rule CXX_COMPILER__Animal_TE_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Animal_TE_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1796,7 +1796,7 @@ rule CXX_SCAN__Any_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Any_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1827,7 +1827,7 @@ rule CXX_COMPILER__Any_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Any_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1845,7 +1845,7 @@ rule CXX_SCAN__Any_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Any_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Any_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1876,7 +1876,7 @@ rule CXX_COMPILER__Any_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Any_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1894,7 +1894,7 @@ rule CXX_SCAN__Function_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Function_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1925,7 +1925,7 @@ rule CXX_COMPILER__Function_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Function_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1943,7 +1943,7 @@ rule CXX_SCAN__Function_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Function_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -1974,7 +1974,7 @@ rule CXX_COMPILER__Function_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Function_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -1992,7 +1992,7 @@ rule CXX_SCAN__Function_Ref_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Function_Ref_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\Function_Ref.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2023,7 +2023,7 @@ rule CXX_COMPILER__Function_Ref_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Function_Ref_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2041,7 +2041,7 @@ rule CXX_SCAN__InplaceAny_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__InplaceAny_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceAny.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2072,7 +2072,7 @@ rule CXX_COMPILER__InplaceAny_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__InplaceAny_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2090,7 +2090,7 @@ rule CXX_SCAN__InplaceFunction_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__InplaceFunction_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\InplaceFunction.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2121,7 +2121,7 @@ rule CXX_COMPILER__InplaceFunction_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__InplaceFunction_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2139,7 +2139,7 @@ rule CXX_SCAN__PolymorphicAllocator_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__PolymorphicAllocator_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\PolymorphicAllocator.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2170,7 +2170,7 @@ rule CXX_COMPILER__PolymorphicAllocator_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__PolymorphicAllocator_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2188,7 +2188,7 @@ rule CXX_SCAN__TypeErasure_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__TypeErasure_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2219,7 +2219,7 @@ rule CXX_COMPILER__TypeErasure_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__TypeErasure_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2237,7 +2237,7 @@ rule CXX_SCAN__TypeErasure_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__TypeErasure_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2268,7 +2268,7 @@ rule CXX_COMPILER__TypeErasure_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__TypeErasure_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2286,7 +2286,7 @@ rule CXX_SCAN__TypeErasure_MVF_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__TypeErasure_MVF_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_MVF.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2317,7 +2317,7 @@ rule CXX_COMPILER__TypeErasure_MVF_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__TypeErasure_MVF_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2335,7 +2335,7 @@ rule CXX_SCAN__TypeErasure_Ref_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__TypeErasure_Ref_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_Ref.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2366,7 +2366,7 @@ rule CXX_COMPILER__TypeErasure_Ref_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__TypeErasure_Ref_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2384,7 +2384,7 @@ rule CXX_SCAN__TypeErasure_SBO_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__TypeErasure_SBO_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2415,7 +2415,7 @@ rule CXX_COMPILER__TypeErasure_SBO_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__TypeErasure_SBO_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2433,7 +2433,7 @@ rule CXX_SCAN__TypeErasure_SBO_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__TypeErasure_SBO_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\TypeErasure_SBO_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2464,7 +2464,7 @@ rule CXX_COMPILER__TypeErasure_SBO_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__TypeErasure_SBO_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2482,7 +2482,7 @@ rule CXX_SCAN__UniquePtr_TypeErasure_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__UniquePtr_TypeErasure_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Type_Erasure\CMakeFiles\UniquePtr_TypeErasure.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2513,7 +2513,7 @@ rule CXX_COMPILER__UniquePtr_TypeErasure_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__UniquePtr_TypeErasure_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2531,7 +2531,7 @@ rule CXX_SCAN__AcyclicVisitor_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__AcyclicVisitor_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\AcyclicVisitor.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2562,7 +2562,7 @@ rule CXX_COMPILER__AcyclicVisitor_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__AcyclicVisitor_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2580,7 +2580,7 @@ rule CXX_SCAN__Variant_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Variant_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Variant.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2611,7 +2611,7 @@ rule CXX_COMPILER__Variant_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Variant_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2629,7 +2629,7 @@ rule CXX_SCAN__Visitor_Benchmark_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Visitor_Benchmark_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Benchmark.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2660,7 +2660,7 @@ rule CXX_COMPILER__Visitor_Benchmark_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Visitor_Benchmark_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2678,7 +2678,7 @@ rule CXX_SCAN__Visitor_Classic_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Visitor_Classic_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Classic.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2709,7 +2709,7 @@ rule CXX_COMPILER__Visitor_Classic_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Visitor_Classic_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2727,7 +2727,7 @@ rule CXX_SCAN__Visitor_Refactoring_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Visitor_Refactoring_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=2_Cpp_Software_Design\Visitor\CMakeFiles\Visitor_Refactoring.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2758,7 +2758,7 @@ rule CXX_COMPILER__Visitor_Refactoring_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Visitor_Refactoring_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2776,7 +2776,7 @@ rule CXX_SCAN__AssociativeContainer_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__AssociativeContainer_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\AssociativeContainer.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\AssociativeContainer.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2807,7 +2807,7 @@ rule CXX_COMPILER__AssociativeContainer_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__AssociativeContainer_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2825,7 +2825,7 @@ rule CXX_SCAN__Constraints2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Constraints2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Constraints2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Constraints2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2856,7 +2856,7 @@ rule CXX_COMPILER__Constraints2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Constraints2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2874,7 +2874,7 @@ rule CXX_SCAN__IsPalindrome_Concepts_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__IsPalindrome_Concepts_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\IsPalindrome_Concepts.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2905,7 +2905,7 @@ rule CXX_COMPILER__IsPalindrome_Concepts_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__IsPalindrome_Concepts_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2923,7 +2923,7 @@ rule CXX_SCAN__Max_Concept_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Max_Concept_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Max_Concept.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Max_Concept.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -2954,7 +2954,7 @@ rule CXX_COMPILER__Max_Concept_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Max_Concept_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -2972,7 +2972,7 @@ rule CXX_SCAN__NarrowConversion2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__NarrowConversion2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\NarrowConversion2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\NarrowConversion2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3003,7 +3003,7 @@ rule CXX_COMPILER__NarrowConversion2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__NarrowConversion2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3021,7 +3021,7 @@ rule CXX_SCAN__Optional_Cpp20_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Optional_Cpp20_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Optional_Cpp20.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Optional_Cpp20.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3052,7 +3052,7 @@ rule CXX_COMPILER__Optional_Cpp20_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Optional_Cpp20_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3070,7 +3070,7 @@ rule CXX_SCAN__Optional_Trivial_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Optional_Trivial_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Optional_Trivial_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Optional_Trivial_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3101,7 +3101,7 @@ rule CXX_COMPILER__Optional_Trivial_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Optional_Trivial_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3119,7 +3119,7 @@ rule CXX_SCAN__Optional_Trivial_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Optional_Trivial_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Optional_Trivial_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Optional_Trivial_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3150,7 +3150,7 @@ rule CXX_COMPILER__Optional_Trivial_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Optional_Trivial_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3168,7 +3168,7 @@ rule CXX_SCAN__PassingConcepts_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__PassingConcepts_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\PassingConcepts.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\PassingConcepts.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3199,7 +3199,7 @@ rule CXX_COMPILER__PassingConcepts_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__PassingConcepts_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3217,7 +3217,7 @@ rule CXX_SCAN__SequenceContainer_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__SequenceContainer_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\SequenceContainer.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\SequenceContainer.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3248,7 +3248,7 @@ rule CXX_COMPILER__SequenceContainer_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__SequenceContainer_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3266,7 +3266,7 @@ rule CXX_SCAN__Sign2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Sign2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Sign2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\Sign2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3297,7 +3297,7 @@ rule CXX_COMPILER__Sign2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Sign2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3315,7 +3315,7 @@ rule CXX_SCAN__UniquePtr_Concepts_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__UniquePtr_Concepts_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\UniquePtr_Concepts.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=3_Concepts\CMakeFiles\UniquePtr_Concepts.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3346,7 +3346,7 @@ rule CXX_COMPILER__UniquePtr_Concepts_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__UniquePtr_Concepts_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3364,7 +3364,7 @@ rule CXX_SCAN__Accumulate_1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Accumulate_1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Accumulate_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Accumulate_1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3395,7 +3395,7 @@ rule CXX_COMPILER__Accumulate_1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Accumulate_1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3413,7 +3413,7 @@ rule CXX_SCAN__Accumulate_2_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Accumulate_2_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Accumulate_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Accumulate_2.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3444,7 +3444,7 @@ rule CXX_COMPILER__Accumulate_2_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Accumulate_2_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3462,7 +3462,7 @@ rule CXX_SCAN__AlgorithmPerformance1_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__AlgorithmPerformance1_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\AlgorithmPerformance1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\AlgorithmPerformance1.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3493,7 +3493,7 @@ rule CXX_COMPILER__AlgorithmPerformance1_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__AlgorithmPerformance1_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3511,7 +3511,7 @@ rule CXX_SCAN__BadAccumulate_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__BadAccumulate_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadAccumulate.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadAccumulate.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3542,7 +3542,7 @@ rule CXX_COMPILER__BadAccumulate_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__BadAccumulate_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3560,7 +3560,7 @@ rule CXX_SCAN__BadCopy_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__BadCopy_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadCopy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadCopy.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3591,7 +3591,7 @@ rule CXX_COMPILER__BadCopy_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__BadCopy_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3609,7 +3609,7 @@ rule CXX_SCAN__BadFind_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__BadFind_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadFind.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadFind.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3640,7 +3640,7 @@ rule CXX_COMPILER__BadFind_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__BadFind_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3658,7 +3658,7 @@ rule CXX_SCAN__BadRemove_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__BadRemove_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadRemove.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadRemove.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3689,7 +3689,7 @@ rule CXX_COMPILER__BadRemove_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__BadRemove_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3707,7 +3707,7 @@ rule CXX_SCAN__BadTransform_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__BadTransform_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadTransform.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\BadTransform.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3738,7 +3738,7 @@ rule CXX_COMPILER__BadTransform_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__BadTransform_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3756,7 +3756,7 @@ rule CXX_SCAN__CartesianProduct_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__CartesianProduct_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\CartesianProduct.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\CartesianProduct.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3787,7 +3787,7 @@ rule CXX_COMPILER__CartesianProduct_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__CartesianProduct_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3805,7 +3805,7 @@ rule CXX_SCAN__EqualRange_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__EqualRange_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\EqualRange.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\EqualRange.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3836,7 +3836,7 @@ rule CXX_COMPILER__EqualRange_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__EqualRange_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3854,7 +3854,7 @@ rule CXX_SCAN__ExtractStrings_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__ExtractStrings_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\ExtractStrings.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\ExtractStrings.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3885,7 +3885,7 @@ rule CXX_COMPILER__ExtractStrings_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__ExtractStrings_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3903,7 +3903,7 @@ rule CXX_SCAN__Fibonacci_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Fibonacci_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Fibonacci.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Fibonacci.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3934,7 +3934,7 @@ rule CXX_COMPILER__Fibonacci_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Fibonacci_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -3952,7 +3952,7 @@ rule CXX_SCAN__IsEmailAddress_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__IsEmailAddress_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\IsEmailAddress.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\IsEmailAddress.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -3983,7 +3983,7 @@ rule CXX_COMPILER__IsEmailAddress_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__IsEmailAddress_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4001,7 +4001,7 @@ rule CXX_SCAN__IsPalindrome_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__IsPalindrome_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\IsPalindrome.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\IsPalindrome.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4032,7 +4032,7 @@ rule CXX_COMPILER__IsPalindrome_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__IsPalindrome_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4050,7 +4050,7 @@ rule CXX_SCAN__IsPunct_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__IsPunct_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\IsPunct.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\IsPunct.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4081,7 +4081,7 @@ rule CXX_COMPILER__IsPunct_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__IsPunct_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4099,7 +4099,7 @@ rule CXX_SCAN__LongestStreak_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__LongestStreak_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\LongestStreak.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\LongestStreak.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4130,7 +4130,7 @@ rule CXX_COMPILER__LongestStreak_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__LongestStreak_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4148,7 +4148,7 @@ rule CXX_SCAN__MajorityVote_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__MajorityVote_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\MajorityVote.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\MajorityVote.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4179,7 +4179,7 @@ rule CXX_COMPILER__MajorityVote_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__MajorityVote_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4197,7 +4197,7 @@ rule CXX_SCAN__Median_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Median_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Median.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Median.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4228,7 +4228,7 @@ rule CXX_COMPILER__Median_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Median_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4246,7 +4246,7 @@ rule CXX_SCAN__NthElement_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__NthElement_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\NthElement.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\NthElement.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4277,7 +4277,7 @@ rule CXX_COMPILER__NthElement_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__NthElement_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4295,7 +4295,7 @@ rule CXX_SCAN__Partition_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Partition_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Partition.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Partition.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4326,7 +4326,7 @@ rule CXX_COMPILER__Partition_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Partition_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4344,7 +4344,7 @@ rule CXX_SCAN__RangesExample_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__RangesExample_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesExample.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesExample.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4375,7 +4375,7 @@ rule CXX_COMPILER__RangesExample_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__RangesExample_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4393,7 +4393,7 @@ rule CXX_SCAN__RangesRefactoring_Animals_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__RangesRefactoring_Animals_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Animals.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4424,7 +4424,7 @@ rule CXX_COMPILER__RangesRefactoring_Animals_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__RangesRefactoring_Animals_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4442,7 +4442,7 @@ rule CXX_SCAN__RangesRefactoring_Birthday_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__RangesRefactoring_Birthday_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Birthday.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4473,7 +4473,7 @@ rule CXX_COMPILER__RangesRefactoring_Birthday_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__RangesRefactoring_Birthday_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4491,7 +4491,7 @@ rule CXX_SCAN__RangesRefactoring_Countries_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__RangesRefactoring_Countries_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Countries.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4522,7 +4522,7 @@ rule CXX_COMPILER__RangesRefactoring_Countries_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__RangesRefactoring_Countries_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4540,7 +4540,7 @@ rule CXX_SCAN__RangesRefactoring_Recipes_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__RangesRefactoring_Recipes_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\RangesRefactoring_Recipes.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4571,7 +4571,7 @@ rule CXX_COMPILER__RangesRefactoring_Recipes_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__RangesRefactoring_Recipes_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4589,7 +4589,7 @@ rule CXX_SCAN__Simpson_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Simpson_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Simpson.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Simpson.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4620,7 +4620,7 @@ rule CXX_COMPILER__Simpson_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Simpson_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4638,7 +4638,7 @@ rule CXX_SCAN__SimpsonPro_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__SimpsonPro_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\SimpsonPro.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\SimpsonPro.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4669,7 +4669,7 @@ rule CXX_COMPILER__SimpsonPro_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__SimpsonPro_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4687,7 +4687,7 @@ rule CXX_SCAN__SortSubrange_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__SortSubrange_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\SortSubrange.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\SortSubrange.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4718,7 +4718,7 @@ rule CXX_COMPILER__SortSubrange_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__SortSubrange_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4736,7 +4736,7 @@ rule CXX_SCAN__STLintro_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__STLintro_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\STLintro.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\STLintro.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4767,7 +4767,7 @@ rule CXX_COMPILER__STLintro_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__STLintro_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4785,7 +4785,7 @@ rule CXX_SCAN__STLpro_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__STLpro_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\STLpro.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\STLpro.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4816,7 +4816,7 @@ rule CXX_COMPILER__STLpro_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__STLpro_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4834,7 +4834,7 @@ rule CXX_SCAN__Trap_Debug
 # Rule to generate ninja dyndep files for CXX.
 
 rule CXX_DYNDEP__Trap_Debug
-  command = C:\msys64\ucrt64\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Trap.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
+  command = C:\IDE_Tools\cmake\bin\cmake.exe -E cmake_ninja_dyndep --tdi=4_Ranges\CMakeFiles\Trap.dir\CXXDependInfo.json --lang=CXX --modmapfmt=gcc --dd=$out @$out.rsp
   description = Generating CXX dyndep file $out
   rspfile = $out.rsp
   rspfile_content = $in
@@ -4865,7 +4865,7 @@ rule CXX_COMPILER__Trap_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__Trap_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -4874,7 +4874,7 @@ rule CXX_EXECUTABLE_LINKER__Trap_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\ucrt64\bin\cmake.exe --regenerate-during-build -S"C:\Users\tobis\Documents\Software\Weiterbildung\CppTraining_2026_04_27_R&S\Tasks" -B"C:\Users\tobis\Documents\Software\Weiterbildung\CppTraining_2026_04_27_R&S\build"
+  command = C:\IDE_Tools\cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\tobis\Documents\Software\Weiterbildung\CppTraining_2026_R-S\Tasks -BC:\Users\tobis\Documents\Software\Weiterbildung\CppTraining_2026_R-S\build
   description = Re-running CMake...
   generator = 1
 

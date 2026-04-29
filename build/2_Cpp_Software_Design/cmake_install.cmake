@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design
+# Install script for directory: C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/Tasks/2_Cpp_Software_Design
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Bridge/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/CRTP/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Decorator/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Expression_Templates/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/External_Polymorphism/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Motivation/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Prototype/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Strategy/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Type_Erasure/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Visitor/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/install_local_manifest.txt"
+  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

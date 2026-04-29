@@ -1,20 +1,20 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Bridge/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Decorator/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Expression_Templates/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/External_Polymorphism/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Motivation/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Prototype/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Strategy/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Type_Erasure/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/Visitor/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/cmake_install.cmake",
-		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/cmake_install.cmake"
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Bridge/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/CRTP/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Decorator/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Expression_Templates/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/External_Polymorphism/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Motivation/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Prototype/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Strategy/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Type_Erasure/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/Visitor/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/3_Concepts/cmake_install.cmake",
+		"C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/4_Ranges/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

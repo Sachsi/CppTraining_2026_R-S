@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks
+# Install script for directory: C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/Tasks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/3_Concepts/cmake_install.cmake")
-  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/4_Ranges/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/3_Concepts/cmake_install.cmake")
+  include("C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/4_Ranges/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,6 +64,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

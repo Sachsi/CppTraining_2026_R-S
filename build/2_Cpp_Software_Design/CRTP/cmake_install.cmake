@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/Tasks/2_Cpp_Software_Design/CRTP
+# Install script for directory: C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/Tasks/2_Cpp_Software_Design/CRTP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_04_27_R&S/build/2_Cpp_Software_Design/CRTP/install_local_manifest.txt"
+  file(WRITE "C:/Users/tobis/Documents/Software/Weiterbildung/CppTraining_2026_R-S/build/2_Cpp_Software_Design/CRTP/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
